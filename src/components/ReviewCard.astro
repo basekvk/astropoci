@@ -1,0 +1,60 @@
+---
+import { frontmatter } from "../data/reviews/reviews.md";
+
+// Componentes Astro son archivos .astro y no requieren importar 'react'
+// Asegúrate de pasar las props necesarias, como 'review' en este caso
+const { reviews } = frontmatter;
+---
+
+<section class="testimonial-wrapper section-bg section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-12 mb-40">
+                <div class="section-title text-center">
+                    <span>REVIEWS</span>
+                    <p>TESTIMONIOS</p>
+                    <h1>RESEÑAS DE CLIENTES</h1>
+                </div> 
+                
+                
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <a href="https://g.page/r/Cby_ttUpMvXdEB0/review" class="theme-btn">DEJA TU RESEÑA</a>
+        </div>
+
+        <div class="row">
+            {
+                reviews.map((review) => (  
+            <div class="col-md-6 col-xl-4 col-12">
+                <div class="single-testimonial-card text-center">
+                    <img class="client-img bg-cover bg-center" src={review.imageURL} alt="client-img" />
+                    <div class="client-info">
+                        <h4>{review.name}</h4>
+                    </div>
+                    <div class="feedback">
+                        <p>{review.review}</p>
+
+                        <div class="star">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            ))
+              }
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+

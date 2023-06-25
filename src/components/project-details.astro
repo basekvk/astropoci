@@ -1,0 +1,141 @@
+---
+const {
+  title,
+  titleFaqs,
+  _html,
+  conclusion,
+  titleConclusion,
+  title2,
+  text2,
+  intro,
+  faq1,
+  faq2,
+  faq3,
+  answer1,
+  answer2,
+  answer3,
+  conclusion2,
+  serviceTitle,
+  image1,
+  image2,
+  image3,
+  image4,
+  alt2,
+  alt3,
+  alt4,
+} = Astro.props;
+---
+
+<section class="project-details-wrapper section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-12">
+        <div
+          class="project-thumb bg-cover"
+          style={`background-image: url(${image1})`}
+        >
+        </div>
+        <br>
+        <h2>{title}</h2>
+        <p>
+          {intro}
+        </p>
+<br>
+        <h2>{title2}</h2>
+        <p>{text2}</p>
+        <br />
+
+        <div class="project-details-content">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="project-shot">
+                <a href={image2} class="popup-gallery">
+                  <img src={image2} alt={alt2} /></a
+                >
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="project-shot">
+                <a href={image3} class="popup-gallery"
+                  ><img src={image3} alt={alt3} /></a
+                >
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="project-shot">
+                <a href={image4} class="popup-gallery"
+                  ><img src={image4} alt={alt4} /></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div set:html={_html} />
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-process-box">
+              <div class="icon">
+                <img src="/assets/img/icon/process-icon.png" alt="" />
+                <span>01</span>
+              </div>
+              <div class="content">
+                <h3>Comunidades</h3>
+                <p>
+                  Ofrecemos un servicio destinado a las Comunidades de Vecinos
+                  rápido y eficaz, para que no tengas que preocuparte por nada
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-process-box">
+              <div class="icon">
+                <img src="/assets/img/icon/process-icon.png" alt="" />
+                <span>02</span>
+              </div>
+              <div class="content">
+                <h3>Pisos/Chalets</h3>
+                <p>
+                  Solucionamos los problemas ya sea en pisos o chalets,
+                  ofreciendo un servicio de calidad y profesionalidad
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-process-box">
+              <div class="icon">
+                <img src="/assets/img/icon/process-icon.png" alt="" />
+                <span>03</span>
+              </div>
+              <div class="content">
+                <h3>Colegios</h3>
+                <p>
+                  Acudimos de inmediato ante cualquier problema que pueda surgir
+                  en colegios, institutos y universidades
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-process-box">
+              <div class="icon">
+                <img src="/assets/img/icon/process-icon.png" alt="" />
+                <span>04</span>
+              </div>
+              <div class="content">
+                <h3>Administradores</h3>
+                <p>
+                  Desde Pociten ofrecemos descuentos a los administradores de
+                  fincas en cualquier servicio u obra
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

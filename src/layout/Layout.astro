@@ -1,0 +1,60 @@
+---
+const {titleSEO, descriptionMeta}  = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="modinatheme" />
+    <!-- ======== Page title ============ -->
+    <title>{titleSEO}</title>
+    <meta name="description" content={descriptionMeta} />
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- ===========  All Stylesheet ================= -->
+    <!--  Icon css plugins -->
+    <link rel="stylesheet" href="/assets/css/icons.css" />
+    <!--  animate css plugins -->
+    <link rel="stylesheet" href="/assets/css/animate.css" />
+    <!--  magnific-popup css plugins -->
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
+    <!--  owl carosuel css plugins -->
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
+    <!-- metis menu css file -->
+    <link rel="stylesheet" href="/assets/css/metismenu.css" />
+    <!--  owl theme css plugins -->
+    <link rel="stylesheet" href="/assets/css/owl.theme.css" />
+    <!--  Bootstrap css plugins -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <!--  main style css file -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- template main style css file -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body class="body-wrapper">
+    <slot />
+    <!--  ALl JS Plugins
+    ====================================== -->
+    <script src="/assets/js/jquery.min.js" is:inline></script>
+    <script src="/assets/js/modernizr.min.js" is:inline></script>
+    <script src="/assets/js/jquery.easing.js" is:inline></script>
+    <script src="/assets/js/popper.min.js" is:inline></script>
+    <script src="/assets/js/bootstrap.min.js" is:inline></script>
+    <script src="/assets/js/isotope.pkgd.min.js" is:inline></script>
+    <script src="/assets/js/imageload.min.js" is:inline></script>
+    <script src="/assets/js/scrollUp.min.js" is:inline></script>
+    <script src="/assets/js/owl.carousel.min.js" is:inline></script>
+    <script src="/assets/js/magnific-popup.min.js" is:inline></script>
+    <script src="/assets/js/counterup.min.js" is:inline></script>
+    <script src="/assets/js/wow.min.js" is:inline></script>
+    <script src="/assets/js/metismenu.js" is:inline></script>
+    <script src="/assets/js/timeline.min.js" is:inline></script>
+    <script src="/assets/js/ajax-mail.js" is:inline></script>
+    <script src="/assets/js/active.js" is:inline></script>
+  </body>
+</html>

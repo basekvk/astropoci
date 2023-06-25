@@ -1,0 +1,42 @@
+---
+
+import ReviewCard from "../components/ReviewCard.astro";
+import About from "../components/about.astro";
+import Sponsors from "../components/sponsors.astro";
+import Cta from "../components/cta.astro";
+import Faq from "../components/faq.astro";
+import Footer from "../components/footer.astro";
+import Header from "../components/header.astro";
+import Hero from "../components/hero.astro";
+import Ourservices from "../components/ourservices.astro";
+//import Sponsors from "../components/sponsors.astro";
+import TopBarHeader from "../components/topheader.astro";
+import Layout from "../layout/Layout.astro";
+import Preloader from "../components/preloader.astro";
+
+
+
+---
+
+<Layout
+ titleSEO={"Poceros - Desatascos 24 horas en Madrid | Pociten "}  
+ descriptionMeta={"Desatascos Pociten, tu solución de confianza para desatascos en Madrid. Poceros las 24 horas del día. Llámanos al ☎️ 647 37 67 82 para solucionar tus problemas de atascos."}>
+  <Preloader />
+  <TopBarHeader />
+  <Header />
+  <Hero />
+  <About />
+  <Ourservices /> 
+
+  <Cta />
+
+ <br>
+ <br>
+ <br>
+
+  
+  
+  
+  
+</Layout>
+<Footer />

@@ -1,0 +1,24 @@
+---
+const { bannerTitle, bannerRuta } = Astro.props
+---    
+    
+    <section class="page-banner-wrap bg-cover" style="background-image: url('/assets/img/page-banner.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-12">
+                    <div class="breadcrumb-wrap">
+                        <nav>
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">{bannerRuta}</li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                    <div class="page-heading text-white">
+                        <h1>{bannerTitle}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

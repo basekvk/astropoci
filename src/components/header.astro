@@ -1,0 +1,361 @@
+---
+const links = [
+  {
+    nombre: "ZONA CENTRO",
+    url: "/desatascos/desatascos-madrid",
+    submenu: [
+      {
+        nombre: "MADRID",
+        url: "/desatascos/desatascos-madrid",
+      },
+    ],
+  },
+  {
+    nombre: "ZONA ESTE",
+    url: "#",
+    submenu: [
+      {
+        nombre: "ARGANDA",
+        url: "/desatascos/desatascos-arganda",
+      },
+      {
+        nombre: "ALCALÁ DE HENARES",
+        url: "/desatascos/desatascos-alcala",
+      },
+      {
+        nombre: "TORREJÓN DE ARDOZ",
+        url: "/desatascos/desatascos-torrejon",
+      },
+      {
+        nombre: "COSLADA",
+        url: "/desatascos/desatascos-coslada",
+      },
+      {
+        nombre: "SAN FERNANDO DE HENARES",
+        url: "/desatascos/desatascos-sanfernando",
+      },
+    ],
+  },
+  {
+    nombre: "ZONA OESTE",
+    url: "#",
+    submenu: [
+      {
+        nombre: "POZUELO",
+        url: "/desatascos/desatascos-pozuelo",
+      },
+      {
+        nombre: "LAS ROZAS",
+        url: "/desatascos/desatascos-lasrozas",
+      },
+      {
+        nombre: "BOADILLA",
+        url: "/desatascos/desatascos-boadilla",
+      },
+      {
+        nombre: "MAJADAHONDA",
+        url: "/desatascos/desatascos-majadahonda",
+      },
+      {
+        nombre: "SAN SEBASTIÁN DE LOS REYES",
+        url: "/desatascos/desatascos-sansebastian",
+      },
+    ],
+  },
+  {
+    nombre: "ZONA SUR",
+    url: "#",
+    submenu: [
+      {
+        nombre: "MÓSTOLES",
+        url: "/desatascos/desatascos-mostoles",
+      },
+      {
+        nombre: "VALDEMORO",
+        url: "/desatascos/desatascos-valdemoro",
+      },
+      {
+        nombre: "FUENLABRADA",
+        url: "/desatascos/desatascos-fuenlabrada",
+      },
+      {
+        nombre: "ARANJUEZ",
+        url: "/desatascos/desatascos-aranjuez",
+      },
+      {
+        nombre: "GETAFE",
+        url: "/desatascos/desatascos-getafe",
+      },
+      {
+        nombre: "LEGANÉS",
+        url: "/desatascos/desatascos-leganes",
+      },
+      {
+        nombre: "PARLA",
+        url: "/desatascos/desatascos-parla",
+      },
+    ],
+  },
+  {
+    nombre: "GUADALAJARA",
+    url: "/desatascos/desatascos-guadalajara",
+    submenu: [
+      {
+        nombre: "AZUQUECA DE HENARES",
+        url: "/desatascos/desatascos-azuqueca",
+      },
+      {
+        nombre: "GUADALAJARA",
+        url: "/desatascos/desatascos-guadalajara",
+      },
+    ],
+  },
+  /* {
+    nombre: "TOLEDO",
+    url: "#",
+    submenu: [
+      {
+        nombre: "ILLESCAS",
+        url: "/desatascos/desatascos-illescas",
+      },
+      {
+        nombre: "SESEÑA",
+        url: "/desatascos/desatascos-seseña",
+      },
+      {
+        nombre: "OCAÑA",
+        url: "/desatascos/desatascos-ocaña",
+      }, 
+    ],
+  },*/
+];
+
+const linksServices = [
+  {
+    nombre: "Obras de Pocería",
+    url: "/servicios/poceria",
+  },
+  {
+    nombre: "Desatrancos",
+    url: "/servicios/desatrancos-urgentes",
+  },
+  {
+    nombre: "Fontanería",
+    url: "/servicios/fontaneria",
+  },
+  {
+    nombre: "Desatasco de Tuberías",
+    url: "/servicios/desatasco-de-tuberias",
+  },
+];
+---
+
+<header class="header-wrapper header-1">
+  <div class="container">
+    <div class="row middle-bar justify-content-between align-items-center">
+      <div class="col-xl-3 col-lg-12 col-6 text-lg-center text-xl-left">
+        <div class="logo mb-lg-4 mb-xl-0 text-xl-left">
+          <a href="index.html"><img src="/assets/img/logo.png" alt="logo" /></a>
+        </div>
+      </div>
+      <div class="col-xl-9 col-lg-12 d-none d-lg-block">
+        <div
+          class="header-info-element ml-xl-5 ml-md-4 d-flex justify-content-between align-items-center"
+        >
+          <div class="single-info-element">
+            <div class="icon">
+              <i class="fal fa-map-marked-alt"></i>
+            </div>
+            <div class="text">
+              <h5>Domicilio:</h5>
+              <span>Calle Lezo 8, 4D <br />28041 Madrid</span>
+            </div>
+          </div>
+          <div class="single-info-element">
+            <div class="icon">
+              <i class="fal fa-clock"></i>
+            </div>
+            <div class="text">
+              <h5>Horario:</h5>
+              <span>24 HORAS</span>
+            </div>
+          </div>
+          <div class="single-info-element">
+            <div class="icon">
+              <i class="fal fa-envelope"></i>
+            </div>
+            <div class="text">
+              <h5>E-Mail</h5>
+              <span>info@pocitendesatascos.es</span>
+            </div>
+          </div>
+          <div class="cta-btn">
+            <a href="/contacto" class="theme-btn">PIDE PRESUPUESTO</a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-6 justify-content-end align-items-center d-flex d-lg-none"
+      >
+        <div class="header-btn d-none-mobile">
+          <a href="/contacto" class="theme-btn">PIDE PRESUPUESTO</a>
+        </div>
+
+        <div class="mobile-nav-bar ml-15">
+          <div class="mobile-nav-wrap">
+            <div id="hamburger">
+              <i class="fal fa-bars"></i>
+            </div>
+
+            <!-- mobile menu - responsive menu  -->
+            <div class="mobile-nav">
+              <button type="button" class="close-nav">
+                <i class="fal fa-times-circle"></i>
+              </button>
+              <nav class="sidebar-nav">
+                <ul class="metismenu" id="mobile-menu">
+                  <li><a class="has-arrow" href="/">Inicio</a></li>
+                  <li><a href="/quienes-somos">Quiénes Somos</a></li>
+                  <li>
+                    <a class="has-arrow" href="#">Servicios</a>
+                    <ul class="sub-menu">
+                      {
+                        linksServices.map((link) => (
+                          <li>
+                            <a href={link.url}>{link.nombre}</a>
+                          </li>
+                        ))
+                      }
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="has-arrow" href="#">Desatascos</a>
+                    <ul class="sub-menu">
+                      {
+                        links.map((link) => (
+                          <li>
+                            <a href={link.url}>{link.nombre}</a>
+                            {link.submenu && (
+                              <ul class="sub-menu1">
+                                {link.submenu.map((sublink) => (
+                                  <li>
+                                    <a href={sublink.url}>{sublink.nombre}</a>
+                                  </li>
+                                ))}
+                              </ul>
+                            )}
+                          </li>
+                        ))
+                      }
+                    </ul>
+                  </li>
+
+                  <li><a href="/contacto">Contacto</a></li>
+                </ul>
+              </nav>
+
+              <div class="action-bar text-white">
+                <div class="single-info-element">
+                  <div class="icon">
+                    <i class="fal fa-map-marked-alt"></i>
+                  </div>
+                  <div class="text">
+                    <h5>Localizacón::</h5>
+                    <span>El Mundo</span>
+                  </div>
+                </div>
+                <div class="single-info-element">
+                  <div class="icon">
+                    <i class="fal fa-clock"></i>
+                  </div>
+                  <div class="text">
+                    <h5>Abierto:</h5>
+                    <span>24 Horas</span>
+                  </div>
+                </div>
+                <div class="single-info-element">
+                  <div class="icon">
+                    <i class="fal fa-envelope"></i>
+                  </div>
+                  <div class="text">
+                    <h5>Mail</h5>
+                    <span>info@desatascospociten.es</span>
+                  </div>
+                </div>
+                <div class="call-us">
+                  <div class="icon text-white">
+                    <i class="fal fa-phone-volume"></i>
+                  </div>
+                  <div class="text">
+                    <h5>Llámanos</h5>
+                    <span>647 37 67 82</span>
+                  </div>
+                </div>
+                <a href="/contacto" class="theme-btn mt-4"
+                  >Solicita Presupuesto<i class="fal fa-arrow-right"></i></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-menu-wrapper d-none d-lg-block">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="main-menu">
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/quienes-somos">Quiénes Somos</a></li>
+          <li>
+            <a href="#">Servicios</a>
+            <ul class="sub-menu">
+              {
+                linksServices.map((link) => (
+                  <li>
+                    <a href={link.url}>{link.nombre}</a>
+                  </li>
+                ))
+              }
+            </ul>
+          </li>
+          <li>
+            <a href="#">Desatascos</a>
+            <ul class="sub-menu">
+              {
+                links.map((link) => (
+                  <li>
+                    <a href={link.url}>{link.nombre}</a>
+                    {link.submenu && (
+                      <ul class="sub-menu">
+                        {link.submenu.map((sublink) => (
+                          <li>
+                            <a href={sublink.url}>{sublink.nombre}</a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ))
+              }
+            </ul>
+          </li>
+
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="call-us-cta">
+        <div class="call-us text-white">
+          <div class="icon">
+            <i class="fal fa-phone-volume"></i>
+          </div>
+          <div class="text">
+            <h5>Llámanos 24 horas</h5>
+            <a href="tel://+34647376782"><span>647 37 67 82</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
