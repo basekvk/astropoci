@@ -3,11 +3,7 @@ import Aboutfeatured from "../components/aboutfeatured.astro";
 import Approach from "../components/approach.astro";
 import Bannerestrecho from "../components/bannerestrecho.astro";
 import Faq from "../components/faq.astro";
-import Footer from "../components/footer.astro";
-import Header from "../components/header.astro";
-import Preloader from "../components/preloader.astro";
 import Skills from "../components/skills.astro";
-import Topbarheader from "../components/topheader.astro";
 import Layout from "../layout/Layout.astro";
 import { frontmatter } from "../data/about/about.md";
 ---
@@ -16,13 +12,10 @@ import { frontmatter } from "../data/about/about.md";
   title={frontmatter.metaTitle}
   descriptionMeta={frontmatter.metaDescription}
 >
-  <Preloader />
-  <Topbarheader />
-  <Header />
   <Bannerestrecho
-  bannerTitle={frontmatter.bannerTitle}
-  bannerRuta={frontmatter.bannerRuta}
-/>
+    bannerTitle={frontmatter.bannerTitle}
+    bannerRuta={frontmatter.bannerRuta}
+  />
   <Aboutfeatured />
   <Approach />
   <Skills />
@@ -37,5 +30,4 @@ import { frontmatter } from "../data/about/about.md";
     titleFaq4="¿Cuáles son las herramientas y técnicas que utilizáis?"
     answerFaq4="En Desatascos Pociten utilizamos las herramientas y técnicas más avanzadas del sector para solucionar problemas de atascos, como cámaras de inspección, equipos de alta presión y sistemas de detección de fugas."
   />
-  <Footer />
 </Layout>

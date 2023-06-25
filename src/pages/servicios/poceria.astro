@@ -1,21 +1,15 @@
 ---
 import Bannerestrecho from "../../components/bannerestrecho.astro";
-import Footer from "../../components/footer.astro";
-import Header from "../../components/header.astro";
-import Preloader from "../../components/preloader.astro";
-import Topbarheader from "../../components/topheader.astro";
 import Layout from "../../layout/Layout.astro";
 import ProjectDetails from "../../components/project-details.astro";
 import { frontmatter } from "../../data/servicios/obrasdepoceria.md";
 import Faq from "../../components/faq.astro";
 ---
+
 <Layout
-  titleSEO={frontmatter.metaTitle}
-  descriptionMeta={frontmatter.metaDescription}
+  titleSEO={frontmatter.titleSEO}
+  descriptionMeta={frontmatter.descriptionMeta}
 >
-  <Preloader />
-  <Topbarheader />
-  <Header />
   <Bannerestrecho
     bannerTitle={frontmatter.bannerTitle}
     bannerRuta={frontmatter.bannerRuta}
@@ -39,27 +33,24 @@ import Faq from "../../components/faq.astro";
     answer2={frontmatter.answer2}
     answer3={frontmatter.answer3}
     answer4={frontmatter.answer4}
-    titleConclusion = {frontmatter.titleConclusion}
-    titleFaqs = {frontmatter.titleFaqs}
+    titleConclusion={frontmatter.titleConclusion}
+    titleFaqs={frontmatter.titleFaqs}
     image1={frontmatter.image1}
     image2={frontmatter.image2}
     image3={frontmatter.image3}
     image4={frontmatter.image4}
   />
   <Faq
-  titleFaqs = {frontmatter.titleFaqs}
-  faq1={frontmatter.faq1}
-  faq2={frontmatter.faq2}
-  faq3={frontmatter.faq3}
-  faq4={frontmatter.faq4}
-  answer1={frontmatter.answer1}
-  answer2={frontmatter.answer2}
-  answer3={frontmatter.answer3}
-  answer4={frontmatter.answer4}
-  imageFaq={frontmatter.imageFaq}
-  altFaq={frontmatter.altFaq}
-
+    titleFaqs={frontmatter.titleFaqs}
+    faq1={frontmatter.faq1}
+    faq2={frontmatter.faq2}
+    faq3={frontmatter.faq3}
+    faq4={frontmatter.faq4}
+    answer1={frontmatter.answer1}
+    answer2={frontmatter.answer2}
+    answer3={frontmatter.answer3}
+    answer4={frontmatter.answer4}
+    imageFaq={frontmatter.imageFaq}
+    altFaq={frontmatter.altFaq}
   />
-  <Footer />
 </Layout>;
-

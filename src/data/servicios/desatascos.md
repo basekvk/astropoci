@@ -8,8 +8,8 @@ altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos
 bannerRuta: Desatascos
 
-metaTitle: "Desatrancos Urgentes en Madrid | Solución de Atascos Rápida y Profesional | Desatascos Pociten 💪👷‍♂️🚰"
-metaDescription: ¿Tienes un problema de atasco en Madrid? En Desatascos Pociten ofrecemos servicios de desatrancos urgentes con soluciones rápidas y profesionales. ¡Contacta con nosotros y soluciona tu problema de atasco hoy mismo! 💪👷‍♂️🚰
+titleSEO: "Desatrancos Urgentes en Madrid | Solución de Atascos Rápida y Profesional | Desatascos Pociten 💪👷‍♂️🚰"
+descriptionMeta: ¿Tienes un problema de atasco en Madrid? En Desatascos Pociten ofrecemos servicios de desatrancos urgentes con soluciones rápidas y profesionales. ¡Contacta con nosotros y soluciona tu problema de atasco hoy mismo! 💪👷‍♂️🚰
 
 
 

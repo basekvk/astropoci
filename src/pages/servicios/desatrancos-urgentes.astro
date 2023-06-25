@@ -1,21 +1,16 @@
 ---
 import Bannerestrecho from "../../components/bannerestrecho.astro";
-import Footer from "../../components/footer.astro";
-import Header from "../../components/header.astro";
-import Preloader from "../../components/preloader.astro";
-import Topbarheader from "../../components/topheader.astro";
 import Layout from "../../layout/Layout.astro";
 import ProjectDetails from "../../components/project-details.astro";
 import { frontmatter } from "../../data/servicios/desatrancos.md";
 import Faq from "../../components/faq.astro";
 ---
 <Layout
-  titleSEO={frontmatter.metaTitle}
-  descriptionMeta={frontmatter.metaDescription}
+  titleSEO={frontmatter.titleSEO}
+  descriptionMeta={frontmatter.descriptionMeta}
 >
-  <Preloader />
-  <Topbarheader />
-  <Header />
+  
+
   <Bannerestrecho
     bannerTitle={frontmatter.bannerTitle}
     bannerRuta={frontmatter.bannerRuta}
@@ -60,5 +55,5 @@ import Faq from "../../components/faq.astro";
   altFaq={frontmatter.altFaq}
 
   />
-  <Footer />
+ 
 </Layout>;

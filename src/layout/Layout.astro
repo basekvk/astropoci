@@ -1,5 +1,9 @@
 ---
-const {titleSEO, descriptionMeta}  = Astro.props
+import Preloader from "../components/preloader.astro";
+const { titleSEO, descriptionMeta } = Astro.props;
+import Topbarheader from "../components/topheader.astro";
+import Header from "../components/header.astro";
+import Footer from "../components/footer.astro";
 ---
 
 <!DOCTYPE html>
@@ -14,7 +18,7 @@ const {titleSEO, descriptionMeta}  = Astro.props
     <title>{titleSEO}</title>
     <meta name="description" content={descriptionMeta} />
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
     <!-- ===========  All Stylesheet ================= -->
     <!--  Icon css plugins -->
     <link rel="stylesheet" href="/assets/css/icons.css" />
@@ -37,7 +41,11 @@ const {titleSEO, descriptionMeta}  = Astro.props
   </head>
 
   <body class="body-wrapper">
+    <Preloader />
+    <Topbarheader />
+    <Header />
     <slot />
+    <Footer />
     <!--  ALl JS Plugins
     ====================================== -->
     <script src="/assets/js/jquery.min.js" is:inline></script>
