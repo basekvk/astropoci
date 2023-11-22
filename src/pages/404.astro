@@ -1,0 +1,65 @@
+---
+import Layout from "../layout/Layout.astro";
+
+---
+
+
+
+<Layout title="404 - Página no encontrada" description="Lo sentimos, la página que estás buscando no existe.">
+    <div class="main">
+        <svg class="icon-404" viewBox="0 0 24 24">
+            <path fill="#FF6347" d="M12,2A10,10,0,1,0,22,12,10.011,10.011,0,0,0,12,2Zm1,15H11V11h2Zm0-6H11V7h2Z"/>
+        </svg>
+        <h1>Error 404</h1>
+        <p>Lo sentimos, la página que estás buscando no existe.</p>
+        <a href="/">Volver a Inicio</a>
+    </div>
+<style>
+    /* Aquí van tus estilos CSS */
+    body {
+        text-align: center;
+        padding: 50px;
+        font-family: "Arial", sans-serif;
+    }
+
+    .main {
+        max-width: 600px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+
+    .icon-404 {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        color: #333;
+    }
+
+    p {
+        color: #666;
+    }
+
+    a {
+        display: inline-block;
+        padding: 10px 15px;
+        margin-top: 20px;
+        border-radius: 5px;
+        background-color: #008cba;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover {
+        background-color: #005f73;
+    }
+</style>
+
+
+
+</Layout>
+

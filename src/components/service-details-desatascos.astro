@@ -1,9 +1,8 @@
 ---
-
 import {DATOS} from '../valores/constantes.js';
 
-const {telefono, direccion,number, email} = DATOS;
 
+const {telefono, direccion,number, email} = DATOS;
 
 const {
   title,
@@ -30,9 +29,8 @@ const {
   alt4
 } = Astro.props;
 
-
 // Obtén todos los archivos Markdown de la carpeta /data
-const markdownFiles = await Astro.glob('../data/servicios/*.md');
+const markdownFiles = await Astro.glob('../data/desatascos/*.md');
 // Obtén el slug de la URL actual
 const urlActual = new URL(Astro.request.url);
 const slugActual = urlActual.pathname;
@@ -41,8 +39,7 @@ const slugActual = urlActual.pathname;
 const links = markdownFiles.map(file => ({
   nombre: file.frontmatter.bannerRuta,
   url: file.frontmatter.slug,
-})).filter(link => `/${link.url }`!== slugActual);
-
+})).filter(link => `/desatascos/${link.url }`!== slugActual);
 
 ---
 
@@ -234,4 +231,6 @@ const links = markdownFiles.map(file => ({
       </div>
     </div>
   </div>
+
+
 </section>

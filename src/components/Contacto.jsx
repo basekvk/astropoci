@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from "@emailjs/browser";
+import React from "react";
 
 
 const FormularioContacto = () => {

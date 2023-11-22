@@ -7,6 +7,9 @@ imageFaq: '/assets/img/question.jpg'
 altFaq: "Preguntas Frecuentes Obras de Pocería Pociten"
 bannerTitle: Obras de Pocería
 bannerRuta: Obras de Pocería
+slug: obras-de-poceria
+icono: /assets/img/icon/PIPELINE.svg
+imagen: /assets/img/home1/eng.jpg
 
 titleSEO: "Obras de pocería en Madrid 💧 Expertos en Desatascos Pociten: Servicios y Soluciones"
 descriptionMeta: Servicio de desatascos de calidad en Alcobendas y sus alrededores. Contáctanos para solucionar tus problemas de tuberías y desagües. Desatascos Pociten.

@@ -50,7 +50,7 @@ import Footer from "../components/footer.astro";
   </head>
 
   <body class="body-wrapper">
-    <Preloader />
+    <Preloader id="preloader" />
     <Topbarheader />
     <Header />
     <slot />
@@ -74,6 +74,14 @@ import Footer from "../components/footer.astro";
       preloadCSS("/assets/css/bootstrap.min.css");
       preloadCSS("/assets/css/style.css");
       // ... preload other CSS files as needed
+    };
+  </script>
+
+  
+  <script>
+    window.onload = function() {
+      document.getElementById('preloader').style.display = 'none';
+      // ... hasta que no carga la pagina el preloader no se va
     };
   </script>
     <script src="/assets/js/jquery.min.js" is:inline ></script>

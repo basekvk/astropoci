@@ -7,6 +7,9 @@ imageFaq: '/assets/img/question.jpg'
 altFaq: "Preguntas Frecuentes Fontanería Pociten"
 bannerTitle: Fontanería
 bannerRuta: Fontanería
+slug: fontaneria
+icono: /assets/img/icon/s2.png
+imagen: /assets/img/home1/eng.jpg
 
 titleSEO: "Fontanería en Madrid | Servicios de fontanería de emergencia | Desatascos Pociten 👨‍🔧🚰"
 descriptionMeta: ¿Necesitas servicios de fontanería en Madrid? En Desatascos Pociten ofrecemos soluciones rápidas y eficientes las 24 horas del día, los 7 días de la semana. Contacta con nosotros para instalaciones, reparaciones y desatascos de tuberías. 💧🔧👨‍🔧

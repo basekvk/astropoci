@@ -1,4 +1,7 @@
 ---
+import {DATOS} from '../valores/constantes.js';
+
+const {telefono, direccion,number, email, facebook, instagram, youtube} = DATOS;
 ---
 
 <footer class="footer-1 footer-wrap">
@@ -10,17 +13,15 @@
             <div class="wid-title">
               <h4 style="text-align: center;">Sobre Nosotros</h4>
             </div>
-            <p style="text-align: justify;">
+            <p style="text-align: center ;">
               Desatascos Pociten es una empresa ubicada en Madrid con amplia
-              experiencia en todo tipo de desatrancos y desatascos. Realizamos
-              trabajos a domicilio de desatasco de tuberías y también
-              alcantarillas. Si lo necesitas también podemos realizar la
-              limpieza y vaciado de fosas sépticas.
+              experiencia en todo tipo de servicios destinados a la pocería.
+              Desatascos, desatrancos, obras de pocería, arquetas, fosas sépticas, alcantarillado, bajantes, inspecciones con cámara. Contacta sin compromiso e intentamos igualarte tu presupuesto ofreciendote la máxima calidad..
             </p>
             <div class="social_link" style="text-align: center;">
-              <a href="https://www.facebook.com/desatascospociten"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://instagram.com/pociten_desatascos?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
-              <a href="https://www.youtube.com/@PocitenDesatascos#"><i class="fab fa-youtube"></i></a>
+              <a href={facebook}><i class="fab fa-facebook-f"></i></a>
+              <a href={instagram}><i class="fab fa-instagram"></i></a>
+              <a href={youtube}><i class="fab fa-youtube"></i></a>
             </div>
           </div>
         </div>
@@ -33,58 +34,58 @@
             <div class="recent-post-list" style="text-align: center;">
               <div class="single-recent-post">
                 <div class="post-data">
-                  <h5><a href="/desatascos/desatascos-madrid">Desatascos Madrid</a></h5>
+                  <h5><a href="/desatascos/madrid">Madrid</a></h5>
                 </div>
               </div>
               <div class="single-recent-post">
                 <div class="post-data">
-                  <h5><a href="/desatascos/desatascos-arganda">Desatascos Arganda</a></h5>
+                  <h5><a href="/desatascos/arganda-del-rey">Arganda</a></h5>
                 </div>
               </div>
               <div class="single-recent-post">
                 <div class="post-data">
-                  <h5><a href="/desatascos/desatascos-parla">Desatascos Parla</a></h5>
+                  <h5><a href="/desatascos/parla">Parla</a></h5>
                 </div>
               </div>
               <div class="single-recent-post">
                 <div class="post-data">
-                  <h5><a href="/desatascos/desatascos-mostoles">Desatascos Móstoles</a></h5>
+                  <h5><a href="/desatascos/mostoles">Móstoles</a></h5>
                 </div>
               </div>
               <div class="single-recent-post">
                 <div class="post-data">
-                  <h5><a href="/desatascos/desatascos-alcorcon">Desatascos Alcorcón</a></h5>
+                  <h5><a href="/desatascos/alcorcon">Alcorcón</a></h5>
                 </div>
               </div>
               <div class="single-recent-post">
                 <div class="post-data">
-                  <h5><a href="/desatascos/desatascos-leganes">Desatascos Leganés</a></h5>
+                  <h5><a href="/desatascos/leganes">Leganés</a></h5>
                 </div>
               </div>
               <div class="single-recent-post">
                 <div class="post-data">
                   <h5>
-                    <a href="/desatascos/desatascos-fuenlabrada">Desatascos Fuenlabrada</a>
+                    <a href="/desatascos/fuenlabrada">Fuenlabrada</a>
                   </h5>
                 </div>
               </div>
               <div class="single-recent-post">
                 <div class="post-data">
-                  <h5><a href="/desatascos/desatascos-getafe">Desatascos Getafe</a></h5>
+                  <h5><a href="/desatascos/desatascos-getafe">Getafe</a></h5>
                 </div>
               </div>
               <div class="single-recent-post">
                 <div class="post-data">
                   <h5>
-                    <a href="/desatascos/desatascos-majadahonda">Desatascos Majadahonda</a>
+                    <a href="/desatascos/desatascos-majadahonda">Majadahonda</a>
                   </h5>
                 </div>
               </div>
               <div class="single-recent-post">
                 <div class="post-data">
                   <h5>
-                    <a href="/desatascos/desatascos-sansebastian"
-                      >Desatascos San Sebastian de los Reyes</a>
+                    <a href="/desatascos/sanse"
+                      >San Sebastian de los Reyes</a>
                   </h5>
                 </div>
               </div>
@@ -117,7 +118,7 @@
                 </div>
                 <div class="contact-info">
                   <span>Teléfono</span>
-                  <p><a href="tel://+34647376782" >647 37 67 82</a></p>
+                  <p><a href=`tel:${number}` >{telefono}</a></p>
                 </div>
               </div>
               <div class="single-contact-info">
@@ -126,7 +127,7 @@
                 </div>
                 <div class="contact-info">
                   <span>Email</span>
-                  <p style="font-size: small;"><a href="mailto:info@pocitendesatascos.es">info@pocitendesatascos.es</a></p>
+                  <p style="font-size: small;"><a href=`mailto:${email}`>{email}</a></p>
                 </div>
               </div>
               <div class="single-contact-info">
@@ -135,7 +136,7 @@
                 </div>
                 <div class="contact-info">
                   <span>Dirección:</span>
-                  <p>Calle Lezo 8, 4D<br> 28041,Madrid</p>
+                  <p>{direccion}</p>
                 </div>
               </div>
             </div>
@@ -151,7 +152,7 @@
       <div class="row align-items-center">
         <div class="col-lg-4 col-12 text-center text-lg-left">
           <div class="copyright-info">
-            <p>©️ Copyright <a href="/.">Pociten 💥</a>  2023</p>
+            <p>©️ Copyright <a href="/">Pociten 💥</a>  2023</p>
           </div>
         </div>
         <div class="col-lg-4 col-12 text-center">
