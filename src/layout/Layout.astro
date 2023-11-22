@@ -21,24 +21,32 @@ import Footer from "../components/footer.astro";
     <link rel="shortcut icon" href="/favicon.ico" />
     
     <!-- ===========  All Stylesheet ================= -->
-    <!--  Icon css plugins -->
-    <link rel="stylesheet" href="/assets/css/icons.css" />
-    <!--  animate css plugins -->
-    <link rel="stylesheet" href="/assets/css/animate.css" />
-    <!--  magnific-popup css plugins -->
-    <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
-    <!--  owl carosuel css plugins -->
-    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
-    <!-- metis menu css file -->
-    <link rel="stylesheet" href="/assets/css/metismenu.css" />
-    <!--  owl theme css plugins -->
-    <link rel="stylesheet" href="/assets/css/owl.theme.css" />
-    <!--  Bootstrap css plugins -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-    <!--  main style css file -->
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <!-- template main style css file -->
-    <link rel="stylesheet" href="/style.css" />
+   <!-- Preloading critical CSS files -->
+  <link rel="preload" href="/assets/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/css/bootstrap.min.css"></noscript>
+
+  <link rel="preload" href="/assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/css/style.css"></noscript>
+
+  <!-- Deferred loading for non-critical CSS files -->
+  <link rel="stylesheet" href="/assets/css/icons.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/assets/css/animate.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/assets/css/magnific-popup.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/assets/css/metismenu.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/assets/css/owl.theme.css" media="print" onload="this.media='all'">
+
+  <noscript>
+    <link rel="stylesheet" href="/assets/css/icons.css">
+    <link rel="stylesheet" href="/assets/css/animate.css">
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/metismenu.css">
+    <link rel="stylesheet" href="/assets/css/owl.theme.css">
+  </noscript>
+
+  <!-- Template main style -->
+  <link rel="stylesheet" href="/style.css" />
   </head>
 
   <body class="body-wrapper">
@@ -50,6 +58,24 @@ import Footer from "../components/footer.astro";
     <!--  ALl JS Plugins
     ====================================== -->
   -webkit-transition: all .s;
+  <script>
+    // Preloading CSS
+    function preloadCSS(href) {
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = href;
+      link.type = "text/css";
+  
+      var head = document.getElementsByTagName("head")[0];
+      head.appendChild(link);
+    }
+  
+    window.onload = function() {
+      preloadCSS("/assets/css/bootstrap.min.css");
+      preloadCSS("/assets/css/style.css");
+      // ... preload other CSS files as needed
+    };
+  </script>
     <script src="/assets/js/jquery.min.js" is:inline ></script>
     <script src="/assets/js/modernizr.min.js" is:inline></script>
     <script src="/assets/js/jquery.easing.js" is:inline></script>
