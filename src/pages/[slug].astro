@@ -1,11 +1,20 @@
 ---
+// Importaciones
 import Bannerestrecho from "../components/bannerestrecho.astro";
 import Layout from "../layout/Layout.astro";
 import Faq from "../components/faq.astro";
 import ServiceDetails from "../components/service-details.astro";
 
+export async function getStaticPaths() {
+  const markdownFiles = await Astro.glob("../data/servicios/*.md");
 
-
+  return markdownFiles.map(file => ({
+    params: {
+      slug: file.frontmatter.slug,     
+    },
+  }));
+  
+}
 // Importa los archivos Markdown
 const markdownFiles = await Astro.glob("../data/servicios/*.md");
 
@@ -24,6 +33,8 @@ if (!page) {
     status: 404
   });
 }
+
+
 ---
 
 <Layout

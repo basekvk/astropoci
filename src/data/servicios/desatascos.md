@@ -7,7 +7,7 @@ imageFaq: '/assets/img/question.jpg'
 altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos
 bannerRuta: Desatascos
-slug: desatascos-de-tuberias
+slug: "desatascos-de-tuberias"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
 

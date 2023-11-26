@@ -3,6 +3,18 @@ import Bannerestrecho from "../../components/bannerestrecho.astro";
 import ServiceDetails from "../../components/service-details-desatascos.astro";
 import Layout from "../../layout/Layout.astro";
 
+
+export async function getStaticPaths() {
+  const markdownFiles = await Astro.glob("../../data/desatascos/*.md");
+
+  return markdownFiles.map(file => ({
+    params: {
+      slug: file.frontmatter.slug,     
+    },
+  }));
+  
+}
+
 // Importa los archivos Markdown
 const markdownFiles = await Astro.glob("../../data/desatascos/*.md");
 
