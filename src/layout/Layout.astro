@@ -4,6 +4,7 @@ const { titleSEO, descriptionMeta } = Astro.props;
 import Topbarheader from "../components/topheader.astro";
 import Header from "../components/header.astro";
 import Footer from "../components/footer.astro";
+
 ---
 
 <!DOCTYPE html>
@@ -16,6 +17,7 @@ import Footer from "../components/footer.astro";
     <meta name="author" content="modinatheme" />
     <!-- ======== Page title ============ -->
     <title>{titleSEO}</title>
+ 
     <meta name="description" content={descriptionMeta} />
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="/favicon.ico" />
