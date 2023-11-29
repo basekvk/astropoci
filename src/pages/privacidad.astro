@@ -1,17 +1,20 @@
 ---
 // Importa tu componente de Layout si tienes uno. Si no, puedes omitir esta línea y el uso de <Layout> abajo.
     import Layout from '../layout/Layout.astro';
+    import {DATOS} from '../valores/constantes'
 
-    
+    const {nombre, CIF, direccion, telefono, email} = DATOS
+     
 ---
 
-<Layout>
+<Layout titleSEO="Política de Privacidad" descriptionMeta="" >
   <main class="container" style="margin-top:80px; margin-bottom:80px "  >
     <h1>Política de Privacidad</h1>
+    <br>
     <section>
-      <p>DUEGENCY SL (en adelante LA EMPRESA)  como titular del sitio web que Usted visita, expone en este apartado la Política de Privacidad en el uso, y sobre la información de carácter personal que el usuario puede facilitar cuando visite o navegue por la página web de nuestra titularidad.
+      <p>{nombre} (en adelante LA EMPRESA)  como titular del sitio web que Usted visita, expone en este apartado la Política de Privacidad en el uso, y sobre la información de carácter personal que el usuario puede facilitar cuando visite o navegue por la página web de nuestra titularidad.
 
-        En el tratamiento de datos de carácter personal, LA EMPRESA garantiza el cumplimiento de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal y su normativa de desarrollo, Real Decreto 1720/2007, de 21 de diciembre, por el que se aprueba su Reglamento, así como la LSSICE 34/2002, del 11 de julio, de la Sociedad de la Información y de Comercio Electrónico. Por lo que informa a todos los usuarios, que los datos remitidos o suministrados a través de la presente serán incorporados a un fichero automatizado debidamente inscrito en la Agencia Española de Protección de Datos, en el que el responsable de dicho fichero es: DUEGENCY SL con NIF: B16885360 y domicilio social: Calle Sierra del Torcal, 28031, Madrid, España
+        En el tratamiento de datos de carácter personal, LA EMPRESA garantiza el cumplimiento de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal y su normativa de desarrollo, Real Decreto 1720/2007, de 21 de diciembre, por el que se aprueba su Reglamento, así como la LSSICE 34/2002, del 11 de julio, de la Sociedad de la Información y de Comercio Electrónico. Por lo que informa a todos los usuarios, que los datos remitidos o suministrados a través de la presente serán incorporados a un fichero automatizado debidamente inscrito en la Agencia Española de Protección de Datos, en el que el responsable de dicho fichero es: {nombre} con NIF: {CIF} y domicilio social: {direccion}.
         
         LA EMPRESA se reserva el derecho de modificar la presente Política de Protección de Datos en cualquier momento, con el fin de adaptarla a novedades legislativas o cambios en sus actividades, siendo vigente la que en cada momento se encuentre publicada en nuestra web.
         </p>
@@ -19,6 +22,7 @@
      <br>
     <section>
       <h2>CALIDAD Y FINALIDAD</h2>
+      <br>
       <p>Al hacer “click” en el botón “Enviar” (o equivalente) incorporado en nuestros formularios, el usuario declara que la información y los datos que en ellos ha facilitado son exactos y veraces. Para que la información facilitada esté siempre actualizada y no contenga errores, el Usuario deberá comunicar a la mayor brevedad posible, las modificaciones de sus datos de carácter personal que se vayan produciendo, así como las rectificaciones de datos erróneos en caso de que detecte alguno. El Usuario garantiza que los datos aportados son verdaderos, exactos, completos y actualizados, siendo responsable de cualquier daño o perjuicio, directo o indirecto, que pudiera ocasionarse como consecuencia del incumplimiento de tal obligación. En función del formulario o sección a la que acceda, y según la información que nos facilite, esta se utilizará para las finalidades descritas a continuación, por lo que el usuario acepta expresamente y de forma libre e inequívoca el tratamiento de sus datos con acuerdo a las siguientes finalidades:
 
         1.	Las que particularmente se indiquen en cada una de las páginas o secciones donde aparezca el formulario de registro o contacto electrónico.
@@ -33,11 +37,13 @@
 <br>
     <section>
       <h2>BAJA EN SUSCRIPCIÓN A NEWSLETTER Y ENVÍO DE COMUNICACIONES COMERCIALES</h2>
-      <p>En cumplimiento de la LSSI-CE 34/2002, de 11 de julio, de la Sociedad de la Información y del Comercio Electrónico, le informamos que podrá en cualquier momento revocar el consentimiento prestado para él envió de comunicaciones comerciales remitidas por nuestra direcciones de correo, o para causar baja en nuestros servicios de suscripción, enviando un correo electrónico indicando su solicitud a: hola@duegency.es indicando: BAJA SUSCRIPCIÓN</p>
+      <br>
+      <p>En cumplimiento de la LSSI-CE 34/2002, de 11 de julio, de la Sociedad de la Información y del Comercio Electrónico, le informamos que podrá en cualquier momento revocar el consentimiento prestado para él envió de comunicaciones comerciales remitidas por nuestra direcciones de correo, o para causar baja en nuestros servicios de suscripción, enviando un correo electrónico indicando su solicitud a: {email} indicando: BAJA SUSCRIPCIÓN</p>
     </section>
 <br>
     <section>
       <h2>ACCESO A DATOS PERSONALES POR CUENTA DE TERCEROS Y COOKIES</h2>
+      <br>
       <p>LA EMPRESA podrá contratar a terceros para que desempeñen funciones en su nombre en relación con los fines para los que se puedan recoger sus datos personales, como por ejemplo, analizar la información proporcionada, alojar sitios web o similares teniendo acceso a la información de carácter personal necesaria para el desempeño de sus funciones, si bien no podrán utilizar dicha información para ningún otro fin  regulando nuestras relaciones con tales terceros de manera que se cumpla la normativa aplicable en materia de protección de datos de carácter personal.
 
         Nuestra web utiliza servidores publicitarios con el fin de facilitar contenidos comerciales que el usuario visualiza en nuestras páginas. Dichos servidores publicitarios, utilizan cookies que le permiten adaptar los contenidos publicitarios a los perfiles demográficos de los usuarios:
@@ -58,16 +64,19 @@
 
     <section>
       <h2>DATOS TITULARIDAD DE TERCEROS</h2>
+      <br>
       <p>En el supuesto de que nos facilite datos de carácter personal de terceras personas, en cumplimiento de lo dispuesto en el artículo 5.4. LOPD, declara haber informado a dichas personas con carácter previo, del contenido de los datos facilitados, de la procedencia de los mismos, de la existencia y finalidad del fichero donde se contienen sus datos, de los destinatarios de dicha información, de la posibilidad de ejercitar los derechos de acceso, rectificación, cancelación u oposición, así como de los datos identificativos de LA EMPRESA. En este sentido, es de su exclusiva responsabilidad informar de tal circunstancia a los terceros cuyos datos nos va a ceder, no asumiendo LA EMPRESA ninguna responsabilidad por el incumplimiento de este precepto por parte del usuario.</p>
     </section>
 <br>
     <section>
       <h2>EJERCICIO DE DERECHOS</h2>
-      <p>El titular de los datos podrá ejercer sus derechos de acceso, rectificación, cancelación y oposición dirigiéndose a LA EMPRESA: hola@duegency.es Dicha solicitud deberá contener los siguientes datos: nombre y apellidos, domicilio a efecto de notificaciones, fotocopia del DNI o Pasaporte.</p>
+      <br>
+      <p>El titular de los datos podrá ejercer sus derechos de acceso, rectificación, cancelación y oposición dirigiéndose a LA EMPRESA: {email} Dicha solicitud deberá contener los siguientes datos: nombre y apellidos, domicilio a efecto de notificaciones, fotocopia del DNI o Pasaporte.</p>
     </section>
 <br>
     <section>
       <h2>MEDIDAS DE SEGURIDAD</h2>
+      <br>
       <p>LA EMPRESA ha adoptado todas las medidas técnicas y de organización necesaria para garantizar la seguridad e integridad de los datos de carácter personal que trate, así como para evitar su pérdida, alteración y/o acceso por parte de terceros no autorizados. No obstante lo anterior, el usuario reconoce y acepta que las medidas de seguridad en Internet no son inexpugnables.</p>
     </section>
   </main>

@@ -1,7 +1,7 @@
 ---
+import {linksServices} from "../valores/linksHeader.js";
 
-
-
+const urlZonas = "/desatascos/en";
 
 
 const links = [
@@ -11,7 +11,7 @@ const links = [
     submenu: [
       {
         nombre: "MADRID",
-        url: "/desatascos/madrid",
+        url: `${urlZonas}/madrid`,
       },
     ],
   },
@@ -21,23 +21,23 @@ const links = [
     submenu: [
       {
         nombre: "ARGANDA",
-        url: "/desatascos/arganda-del-rey",
+        url: `${urlZonas}/arganda-del-rey`,
       },
       {
         nombre: "ALCALÁ DE HENARES",
-        url: "/desatascos/alcala-de-henares",
+        url: `${urlZonas}/alcala-de-henares`,
       },
       {
         nombre: "TORREJÓN DE ARDOZ",
-        url: "/desatascos/torrejon-de-ardoz",
+        url: `${urlZonas}/torrejon-de-ardoz`,
       },
       {
         nombre: "COSLADA",
-        url: "/desatascos/coslada",
+        url: `${urlZonas}/coslada`,
       },
       {
         nombre: "SAN FERNANDO DE HENARES",
-        url: "/desatascos/san-fernando-de-henares",
+        url:`${urlZonas}/san-fernando-de-henares`,
       },
     ],
   },
@@ -47,23 +47,23 @@ const links = [
     submenu: [
       {
         nombre: "POZUELO",
-        url: "/desatascos/pozuelo",
+        url: `${urlZonas}/pozuelo`,
       },
       {
         nombre: "LAS ROZAS",
-        url: "/desatascos/las-rozas",
+        url: `${urlZonas}/las-rozas`,
       },
       {
         nombre: "BOADILLA",
-        url: "/desatascos/boadilla-del-monte",
+        url: `${urlZonas}/boadilla-del-monte`,
       },
       {
         nombre: "MAJADAHONDA",
-        url: "/desatascos/majadahonda",
+        url: `${urlZonas}/majadahonda `,
       },
       {
         nombre: "SAN SEBASTIÁN DE LOS REYES",
-        url: "/desatascos/sanse",
+        url: `${urlZonas}/sanse`,
       },
     ],
   },
@@ -73,31 +73,31 @@ const links = [
     submenu: [
       {
         nombre: "MÓSTOLES",
-        url: "/desatascos/mostoles",
+        url: `${urlZonas}/mostoles`,
       },
       {
         nombre: "VALDEMORO",
-        url: "/desatascos/valdemoro",
+        url: `${urlZonas}valdemoro`,
       },
       {
         nombre: "FUENLABRADA",
-        url: "/desatascos/fuenlabrada",
+        url: `${urlZonas}/fuenlabrada`,
       },
       {
         nombre: "ARANJUEZ",
-        url: "/desatascos/aranjuez",
+        url: `${urlZonas}/aranjuez`,
       },
       {
         nombre: "GETAFE",
-        url: "/desatascos/getafe",
+        url: `${urlZonas}/getafe `,
       },
       {
         nombre: "LEGANÉS",
-        url: "/desatascos/leganes",
+        url: `${urlZonas}/leganes`,
       },
       {
         nombre: "PARLA",
-        url: "/desatascos/parla",
+        url: `${urlZonas}/parla`,
       },
     ],
   },
@@ -107,51 +107,90 @@ const links = [
     submenu: [
       {
         nombre: "AZUQUECA DE HENARES",
-        url: "/desatascos/azuqueca-de-henares",
+        url: `${urlZonas}/azuqueca-de-henares`,
       },
       {
         nombre: "GUADALAJARA",
-        url: "/desatascos/guadalajara",
+        url: `${urlZonas}/guadalajara`,
       },
     ],
   },
-  /* {
+   {
     nombre: "TOLEDO",
     url: "#",
     submenu: [
       {
         nombre: "ILLESCAS",
-        url: "/desatascos/desatascos-illescas",
+        url: `${urlZonas}/illescas`,
       },
       {
         nombre: "SESEÑA",
-        url: "/desatascos/desatascos-seseña",
+        url: `${urlZonas}/seseña`,
       },
       {
         nombre: "OCAÑA",
-        url: "/desatascos/desatascos-ocaña",
+        url: `${urlZonas}/ocaña`,
+      }, 
+      {
+        nombre: "TOLEDO",
+        url: `${urlZonas}/toledo`,
       }, 
     ],
-  },*/
+  },
 ];
 
-const linksServices = [
+
+const linksPoceros = [
+  {
+    nombre: "Alcantarillado",
+    url: "poceros/alcantarillado",
+  },
+  {
+    nombre: "Arquetas",
+    url: "poceros/arquetas",
+  },
+  {
+    nombre: "Bajantes",
+    url: "poceros/bajantes",
+  },
+  {
+    nombre: "Bombas de Agua",
+    url: "poceros/bombas-de-agua",
+  },
+
+  {
+    nombre: "Fosas Sépticas",
+    url: "poceros/fosas-septicas",
+  },
+  {
+    nombre: "Inspección",
+    url: "poceros/inspeccion",
+  },
+  {
+    nombre: "Localización de Fugas",
+    url: "poceros/localizacion-de-fugas",
+  },
+  {
+    nombre: "Pozos Sépticos",
+    url: "poceros/pozos-septicos",
+  },
+  {
+    nombre: "Redes de Saneamiento",
+    url: "poceros/redes-de-saneamiento",
+  },
+  {
+    nombre: "Desatascos Industriales",
+    url: "desatascos/industriales",
+  },
   {
     nombre: "Obras de Pocería",
-    url: "/obras-de-poceria",
+    url: "poceros/obras-de-poceria",
   },
   {
-    nombre: "Desatrancos",
-    url: "/desatrancos-urgentes",
+    nombre: "Inundaciones",
+    url: "poceros/inundaciones",
   },
-  {
-    nombre: "Fontanería",
-    url: "/fontaneria",
-  },
-  {
-    nombre: "Desatasco de Tuberías",
-    url: "/desatascos-de-tuberias",
-  },
+ 
 ];
 ---
 
@@ -222,7 +261,7 @@ const linksServices = [
                   <li><a class="has-arrow" href="/">Inicio</a></li>
                   <li><a href="/quienes-somos">Quiénes Somos</a></li>
                   <li>
-                    <a class="has-arrow" href="#">Servicios</a>
+                    <a class="has-arrow" href="#">Desatascos</a>
                     <ul class="sub-menu">
                       {
                         linksServices.map((link) => (
@@ -235,6 +274,18 @@ const linksServices = [
                   </li>
                   <li>
                     <a class="has-arrow" href="#">Desatascos</a>
+                    <ul class="sub-menu">
+                      {
+                        linksServices.map((link) => (
+                          <li>
+                            <a href={link.url}>{link.nombre}</a>
+                          </li>
+                        ))
+                      }
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="has-arrow" href="#">Poceros</a>
                     <ul class="sub-menu">
                       {
                         links.map((link) => (
@@ -314,7 +365,7 @@ const linksServices = [
           <li><a href="/">Inicio</a></li>
           <li><a href="/quienes-somos">Quiénes Somos</a></li>
           <li>
-            <a href="#">Servicios</a>
+            <a href="#">Desatascos</a>
             <ul class="sub-menu">
               {
                 linksServices.map((link) => (
@@ -326,7 +377,19 @@ const linksServices = [
             </ul>
           </li>
           <li>
-            <a href="#">Desatascos</a>
+            <a href="#">Poceros</a>
+            <ul class="sub-menu">
+              {
+                linksPoceros.map((link) => (
+                  <li>
+                    <a href={link.url}>{link.nombre}</a>
+                  </li>
+                ))
+              }
+            </ul>
+          </li>
+          <li>
+            <a href="#">Localidades</a>
             <ul class="sub-menu">
               {
                 links.map((link) => (

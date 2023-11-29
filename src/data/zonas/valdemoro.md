@@ -4,6 +4,7 @@ image2: '/assets/img/desatascos/valdemoro/desatascos-valdemoro2.jpg'
 image3: 
 image4:
 slug: valdemoro
+zona: valdemoro
 
 bannerTitle: Desatascos Valdemoro
 bannerRuta: Valdemoro

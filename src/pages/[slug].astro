@@ -24,8 +24,10 @@ const slug = Astro.params.slug;
 // Extrae los frontmatters de los archivos Markdown
 const pages = markdownFiles.map((file) => file.frontmatter);
 
+
 // Encuentra la página correspondiente al slug
 const page = pages.find((page) => page.slug === slug);
+
 
 // Si no se encuentra la página, devuelve una respuesta 404
 if (!page) {

@@ -1,0 +1,96 @@
+---
+// Importa tu componente de Layout si tienes uno. Si no, puedes omitir esta línea y el uso de <Layout> abajo.
+    import Layout from "../layout/Layout.astro";
+import { DATOS } from "../valores/constantes";
+
+const { nombre, CIF, direccion, telefono, email, web } = DATOS;
+---
+
+<Layout titleSEO="Política de Privacidad" descriptionMeta="">
+  <main class="container" style="margin-top:80px; margin-bottom:80px ">
+    <h1>Aviso legal</h1>
+    <br>
+    <h2>IDENTIFICACIÓN DEL RESPONSABLE DEL SITIO WEB</h2>
+    <br>
+    <p>Tal y como recoge la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico, le informo que:</p>
+    <ul>
+        <li>Mi denominación social es: <strong>{nombre}</strong> (en adelante LA EMPRESA).</li>
+        <li>Con NIF: <strong>{CIF}</strong></li>
+        <li>Mi domicilio social se encuentra en <strong>{direccion}</strong></li>
+        <li>Email: <a href=`mailto:${email}`>{email}</a></li>
+    </ul>
+<br>
+    <h2>OBJETO</h2>
+    <p>El presente <strong>AVISO LEGAL</strong> regula los derechos y obligaciones de LA EMPRESA y de los usuarios en relación al acceso, navegación y utilización de esta web, sin perjuicio de que LA EMPRESA se reserve el derecho a modificar su contenido sin previo aviso, siendo vigentes las que se encuentren publicadas en el momento de navegación.</p>
+    
+    <!-- Continúa el resto del documento con las secciones correspondientes. -->
+<br>
+    <h2>ACCESO AL SITIO WEB</h2>
+    <br>
+    <p>El acceso a contenidos de nuestra web, tiene carácter gratuito y no requiere registro previo con carácter general, sin perjuicio de que puedan existir apartados o servicios concretos que requieran este registro previo por parte del usuario, la remisión de datos por parte del usuario se encuentra regulada en el apartado específico denominado <strong>POLÍTICA DE PRIVACIDAD</strong>.</p>
+
+    <p>Queda prohibido el acceso a nuestra página por parte de menores de edad. Si bien, en caso de que tenga lugar el acceso y registro por parte de un menor, se presumirá que dicho acceso se ha realizado con autorización previa y expresa de sus padres, tutores o representantes legales, LA EMPRESA se reserva el derecho a realizar cuantas verificaciones y comprobaciones considere oportunas a este respecto.</p>
+
+    <p>En ningún caso LA EMPRESA se responsabilizará de la veracidad de los datos facilitados por los usuarios, por lo que cada uno de éstos será el único responsable de que la información facilitada a LA EMPRESA resulte adecuada, exacta, actualizada y precisa o, en caso contrario, de las posibles consecuencias que pudieran derivarse de la falta de calidad y veracidad de los datos.</p>
+<br>
+    <h2>DERECHOS DE PROPIEDAD INTELECTUAL E INDUSTRIAL</h2>
+    <br>
+    <p>La totalidad de esta página: texto, imágenes, marcas, gráficos, logotipos, botones, archivos de software, combinaciones de colores, así como la estructura, selección, ordenación y presentación de sus contenidos, se encuentra protegida por las leyes sobre Propiedad Intelectual e Industrial, quedando prohibida su reproducción, distribución, comunicación pública y transformación, salvo para uso personal y privado.</p>
+
+    <p>Asimismo, queda prohibida la reproducción, retransmisión, copia, cesión o redifusión, total o parcial, de la información contenida en la Página, cualquiera que fuera su finalidad y el medio utilizado para ello, sin autorización previa de LA EMPRESA.</p>
+
+    <p>En ningún caso se entenderá que el acceso, navegación y utilización del Sitio Web por parte del usuario o la utilización de servicios ofertados a través del mismo implica renuncia, transmisión, licencia o cesión total o parcial de dichos derechos por parte de LA EMPRESA a favor del usuario. Únicamente el usuario dispondrá de un derecho de uso de los contenidos del Sitio Web dentro del ámbito doméstico, con la finalidad de disfrutar de las prestaciones del servicio de acuerdo con las presentes.</p>
+
+    <p>Las referencias a marcas o nombres comerciales registrados, u otros signos distintivos, ya sean titularidad del prestador o de terceras empresas, llevan implícita la prohibición sobre su uso sin el consentimiento expreso y por escrito de LA EMPRESA, o de sus legítimos titulares.</p>
+
+    <p>De igual modo, en el caso de que cualquier usuario o un tercero consideren que alguno de los contenidos del Sitio Web propiedad de LA EMPRESA vulnera sus derechos de propiedad intelectual y/o industrial, así como cualesquiera otros derechos, deberá remitir una comunicación a <a href=`mailto:${email}`>{email}</a>.</p>
+   
+<br>
+    <h2>CONDICIONES APLICABLES SOBRE ENLACES Y LINKS</h2>
+    <br>
+    <p>Nuestra página, puede incluir enlaces o links a sitios de terceros, las páginas o enlaces pertenecientes a estos terceros no han sido revisadas ni son objeto de controles por parte de LA EMPRESA, por lo que LA EMPRESA no podrá ser considerada responsable de los contenidos de estos sitios web, ni de las medidas que se adopten relativas a su privacidad o al tratamiento de sus datos de carácter personal u otros que pudieran derivarse.</p>
+
+    <p>LA EMPRESA recomienda la lectura detenida por parte del usuario de las condiciones de uso, política de privacidad, avisos legales y/o similares de estos sitios.</p>
+
+    <p>En caso de estar interesado en activar un enlace a alguna de las páginas de LA EMPRESA deberá comunicarlo, obteniendo el consentimiento expreso para crear el enlace. LA EMPRESA se reserva el derecho de oposición a la activación de enlaces con su sitio web.</p>
+<br>
+
+   
+    <h2>RESPONSABILIDADES</h2>
+    <br>
+        <p>LA EMPRESA no actúa en modo alguno como asesoría o consultoría sobre las materias expuestas en la presente página, ni recomienda, ni garantizar la fiabilidad, utilidad o veracidad de absolutamente toda la información y contenidos que en ella se publica, ni tampoco responde por la utilidad que esta información pueda generar en el usuario, puesto que la función de LA EMPRESA se limita a generar contenido informativo puesto a disposición de los usuarios para crear canales de información, opiniones y colaboración.</p>
+    
+        <p>LA EMPRESA no será responsable directa ni subsidiariamente de:</p>
+        <ul>
+            <li>La calidad del servicio, la velocidad de acceso, el correcto funcionamiento ni la disponibilidad ni continuidad de funcionamiento de la Página.</li>
+            <li>Los daños que puedan causarse en los equipos del usuario por la utilización de la página.</li>
+            <li>Los casos en que un tercero, quebrantando las medidas de seguridad establecidas, acceda a los mensajes o los utilice para la remisión de virus informáticos.</li>
+            <li>Los vicios y defectos de toda clase de los contenidos transmitidos, difundidos, almacenados o puestos a disposición.</li>
+            <li>La licitud, fiabilidad y utilidad de los contenidos que los usuarios transmitan con la utilización de la página o de los servicios en ella ofrecidos, así como tampoco su veracidad o exactitud. LA EMPRESA no controla la utilización que los usuarios hacen de la Página, ni garantiza que lo hagan conforme a lo establecido en el presente Aviso Legal.</li>
+        </ul>
+    
+        <p>A título enunciativo y con carácter no limitativo, el usuario será responsable de:</p>
+        <ul>
+            <li>De los contenidos introducidos por el mismo, especialmente de los datos e informaciones introducidos y enviados a LA EMPRESA por medio de la Página o en la página.</li>
+            <li>De la realización de cualquier tipo de actuación en las páginas de terceros, o en esta propia.</li>
+        </ul>
+    
+        <p>El incumplimiento de cualquiera de las anteriores obligaciones por parte del usuario podrá llevar aparejada la adopción de las medidas oportunas amparadas en Derecho y en el ejercicio de sus derechos u obligaciones, por parte de LA EMPRESA pudiendo llegar a la eliminación o bloqueo de la cuenta del usuario infractor, sin que medie posibilidad de indemnización alguna por los daños y perjuicios causados.</p>
+     <br>
+    <h2>PROTECCIÓN DE DATOS</h2>
+    <br>
+    <!-- ... -->
+     <p>De conformidad con lo dispuesto por la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, todos los datos de carácter personal facilitados durante la utilización de nuestra página serán tratados de conformidad con los dispuesto en nuestro apartado de Política de Privacidad que todo usuario debe aceptar expresamente antes de facilitar datos personales a través de los diferentes formularios puestos a disposición en las diferentes secciones de nuestra página.</p>
+     <br>
+    <h2>POLÍTICA DE COOKIES</h2>
+    <br>
+    <!-- ... -->
+    <p>De conformidad con lo dispuesto en la legislación vigente sobre el uso de cookies, el uso estas será tratado de conformidad con lo dispuesto en el apartado Política de Cookies existente en la presente y, que todo usuario debe leer, aceptar y/o limitar  durante  la navegación, según informa con carácter expreso el banner sobre cookies de nuestra web y la información adicional que se muestran sobre el uso de cookies en la misma. Pudiendo limitar al usuario la descarga de cookies desde las opciones del navegador.</p>
+<br>
+    <h2>LEGISLACIÓN APLICABLE Y JURISDICCIÓN COMPETENTE</h2>
+    <br>
+    <p>El presente Aviso Legal se encuentra redactado en castellano, y se encuentra sometido a la legislación española vigente. LA EMPRESA y el Usuario se someten a los Juzgados y Tribunales del domicilio del Usuario para cualquier controversia que pudiera derivarse. En caso de que el Usuario tenga su domicilio fuera de España, LA EMPRESA y el Usuario se someten a los juzgados y tribunales de Madrid, España.</p>
+    
+    <!-- Incluye cualquier otra información relevante que el usuario haya proporcionado. -->
+  </main>
+</Layout>

@@ -30,16 +30,17 @@ const {
 } = Astro.props;
 
 // Obtén todos los archivos Markdown de la carpeta /data
-const markdownFiles = await Astro.glob('../data/desatascos/*.md');
+const markdownFiles = await Astro.glob('../data/zonas/*.md');
 // Obtén el slug de la URL actual
 const urlActual = new URL(Astro.request.url);
 const slugActual = urlActual.pathname;
+
 
 // Mapea y filtra los enlaces
 const links = markdownFiles.map(file => ({
   nombre: file.frontmatter.bannerRuta,
   url: file.frontmatter.slug,
-})).filter(link => `/desatascos/${link.url }`!== slugActual);
+})).filter(link => `/desatascos/en/${link.url }`!== slugActual);
 
 
 ---

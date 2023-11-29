@@ -1,0 +1,73 @@
+---
+import Bannerestrecho from "../../../components/bannerestrecho.astro";
+import ServiceDetails from "../../../components/service-details-zonas.astro";
+import Layout from "../../../layout/Layout.astro";
+
+
+export async function getStaticPaths() {
+  const markdownFiles = await Astro.glob("../../../data/zonas/*.md");
+
+  return markdownFiles.map(file => ({
+    params: {
+      slug: file.frontmatter.slug,     
+    },
+  }));
+  
+}
+
+// Importa los archivos Markdown
+const markdownFiles = await Astro.glob("../../../data/zonas/*.md");
+
+// Obtén el slug de los parámetros
+const slug = Astro.params.slug;
+
+
+// Extrae los frontmatters de los archivos Markdown
+const pages = markdownFiles.map((file) => file.frontmatter);
+
+// Encuentra la página correspondiente al slug
+const page = pages.find((page) => page.slug === slug);
+
+
+// Si no se encuentra la página, devuelve una respuesta 404
+if (!page) {
+  return new Response('Página no encontrada', {
+    status: 404
+  });
+}
+---
+
+<Layout titleSEO={page?.titleSEO} descriptionMeta={page?.descriptionMeta}>
+  <Bannerestrecho
+    bannerTitle={page?.bannerTitle}
+    bannerRuta={page?.bannerRuta}
+  />
+  
+      <ServiceDetails
+        title={page?.title}
+        aboutText={page?.aboutText}
+        conclusion={page?.conclusion}
+        content={page?.content}
+        servicios={page?.servicios}
+        title2={page?.title2}
+        text2={page?.text2}
+        intro={page?.intro}
+        _html={page?._html}
+        blockquote={page?.blockquote}
+        faq1={page?.faq1}
+        faq2={page?.faq2}
+        faq3={page?.faq3}
+        faq4={page?.faq4}
+        answer1={page?.answer1}
+        answer2={page?.answer2}
+        answer3={page?.answer3}
+        answer4={page?.answer4}
+        titleConclusion={page?.titleConclusion}
+        titleFaqs={page?.titleFaqs}
+        image1={page?.image1}
+        image2={page?.image2}
+        image3={page?.image3}
+        image4={page?.image4}
+      />
+   
+</Layout>
