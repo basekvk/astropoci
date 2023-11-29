@@ -1,7 +1,27 @@
 ---
-import {linksServices} from "../valores/linksHeader.js";
+
 
 const urlZonas = "/desatascos/en";
+
+
+
+const linksServices = await Astro.glob("../data/desatascos/*.md");
+const linksDesatascos = linksServices.map((link) => {
+  const { bannerTitle, slug } = link.frontmatter;
+  return {
+    nombre :bannerTitle,
+    slug:`/desatascos/${slug}`,
+  };
+});
+
+const linksPoci = await Astro.glob("../data/poceros/*.md");
+const linksPoceros = linksPoci.map((link) => {
+  const { bannerTitle, slug } = link.frontmatter;
+  return {
+    nombre :bannerTitle,
+    slug:`/poceros/${slug}` ,
+  };
+});
 
 
 const links = [
@@ -140,58 +160,7 @@ const links = [
 ];
 
 
-const linksPoceros = [
-  {
-    nombre: "Alcantarillado",
-    url: "poceros/alcantarillado",
-  },
-  {
-    nombre: "Arquetas",
-    url: "poceros/arquetas",
-  },
-  {
-    nombre: "Bajantes",
-    url: "poceros/bajantes",
-  },
-  {
-    nombre: "Bombas de Agua",
-    url: "poceros/bombas-de-agua",
-  },
 
-  {
-    nombre: "Fosas Sépticas",
-    url: "poceros/fosas-septicas",
-  },
-  {
-    nombre: "Inspección",
-    url: "poceros/inspeccion",
-  },
-  {
-    nombre: "Localización de Fugas",
-    url: "poceros/localizacion-de-fugas",
-  },
-  {
-    nombre: "Pozos Sépticos",
-    url: "poceros/pozos-septicos",
-  },
-  {
-    nombre: "Redes de Saneamiento",
-    url: "poceros/redes-de-saneamiento",
-  },
-  {
-    nombre: "Desatascos Industriales",
-    url: "desatascos/industriales",
-  },
-  {
-    nombre: "Obras de Pocería",
-    url: "poceros/obras-de-poceria",
-  },
-  {
-    nombre: "Inundaciones",
-    url: "poceros/inundaciones",
-  },
- 
-];
 ---
 
 <header class="header-wrapper header-1">
@@ -264,35 +233,36 @@ const linksPoceros = [
                     <a class="has-arrow" href="#">Desatascos</a>
                     <ul class="sub-menu">
                       {
-                        linksServices.map((link) => (
+                        linksDesatascos.map((link) => (
                           <li>
-                            <a href={link.url}>{link.nombre}</a>
+                            <a href={link.slug}>{link.nombre}</a>
                           </li>
                         ))
                       }
                     </ul>
                   </li>
-                  <li>
-                    <a class="has-arrow" href="#">Desatascos</a>
-                    <ul class="sub-menu">
-                      {
-                        linksServices.map((link) => (
-                          <li>
-                            <a href={link.url}>{link.nombre}</a>
-                          </li>
-                        ))
-                      }
-                    </ul>
-                  </li>
+                  
                   <li>
                     <a class="has-arrow" href="#">Poceros</a>
+                    <ul class="sub-menu">
+                      {
+                        linksPoceros.map((link) => (
+                          <li>
+                            <a href={link.slug}>{link.nombre}</a>
+                          </li>
+                        ))
+                      }
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Localidades</a>
                     <ul class="sub-menu">
                       {
                         links.map((link) => (
                           <li>
                             <a href={link.url}>{link.nombre}</a>
                             {link.submenu && (
-                              <ul class="sub-menu1">
+                              <ul class="sub-menu">
                                 {link.submenu.map((sublink) => (
                                   <li>
                                     <a href={sublink.url}>{sublink.nombre}</a>
@@ -368,9 +338,9 @@ const linksPoceros = [
             <a href="#">Desatascos</a>
             <ul class="sub-menu">
               {
-                linksServices.map((link) => (
+                linksDesatascos.map((link) => (
                   <li>
-                    <a href={link.url}>{link.nombre}</a>
+                    <a href={link.slug}>{link.nombre}</a>
                   </li>
                 ))
               }
@@ -380,9 +350,9 @@ const linksPoceros = [
             <a href="#">Poceros</a>
             <ul class="sub-menu">
               {
-                linksPoceros.map((link) => (
+                linksPoceros.map((item) => (
                   <li>
-                    <a href={link.url}>{link.nombre}</a>
+                    <a href={item.slug}>{item.nombre}</a>
                   </li>
                 ))
               }

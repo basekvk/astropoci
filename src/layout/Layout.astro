@@ -4,52 +4,37 @@ const { titleSEO, descriptionMeta } = Astro.props;
 import Topbarheader from "../components/topheader.astro";
 import Header from "../components/header.astro";
 import Footer from "../components/footer.astro";
-
 ---
 
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <!-- ========== Meta Tags ========== -->
+    <!-- Metatags básicos -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="modinatheme" />
-    <!-- ======== Page title ============ -->
-    <title>{titleSEO}</title>
- 
     <meta name="description" content={descriptionMeta} />
-    <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="/favicon.ico" />
-    
-    <!-- ===========  All Stylesheet ================= -->
-   <!-- Preloading critical CSS files -->
-  <link rel="preload" href="/assets/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/assets/css/bootstrap.min.css"></noscript>
-
-  <link rel="preload" href="/assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/assets/css/style.css"></noscript>
-
-  <!-- Deferred loading for non-critical CSS files -->
-  <link rel="stylesheet" href="/assets/css/icons.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="/assets/css/animate.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="/assets/css/magnific-popup.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="/assets/css/metismenu.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="/assets/css/owl.theme.css" media="print" onload="this.media='all'">
-
-  <noscript>
+  
+    <!-- Título de la página -->
+    <title>{titleSEO}</title>
+   
+    <!-- Preloading critical CSS files -->
+    <link rel="preload" href="/assets/css/bootstrap.min.css" as="style">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="preload" href="/assets/css/style.css" as="style">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  
+    <!-- Otros archivos CSS -->
     <link rel="stylesheet" href="/assets/css/icons.css">
     <link rel="stylesheet" href="/assets/css/animate.css">
     <link rel="stylesheet" href="/assets/css/magnific-popup.css">
     <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/assets/css/metismenu.css">
     <link rel="stylesheet" href="/assets/css/owl.theme.css">
-  </noscript>
-
-  <!-- Template main style -->
-  <link rel="stylesheet" href="/style.css" />
   </head>
+  
 
   <body class="body-wrapper">
     <Preloader id="preloader" />
@@ -57,50 +42,29 @@ import Footer from "../components/footer.astro";
     <Header />
     <slot />
     <Footer />
-    <!--  ALl JS Plugins
-    ====================================== -->
 
-  <script>
-    // Preloading CSS
-    function preloadCSS(href) {
-      var link = document.createElement("link");
-      link.rel = "stylesheet";
-      link.href = href;
-      link.type = "text/css";
-  
-      var head = document.getElementsByTagName("head")[0];
-      head.appendChild(link);
-    }
-  
-    window.onload = function() {
-      preloadCSS("/assets/css/bootstrap.min.css");
-      preloadCSS("/assets/css/style.css");
-      // ... preload other CSS files as needed
-    };
-  </script>
+    <!-- Deferred JavaScript -->
+    <script src="/assets/js/jquery.min.js" defer></script>
+    <script src="/assets/js/modernizr.min.js" defer></script>
+    <script src="/assets/js/jquery.easing.js" defer></script>
+    <script src="/assets/js/popper.min.js" defer></script>
+    <script src="/assets/js/bootstrap.min.js" defer></script>
+    <script src="/assets/js/isotope.pkgd.min.js" defer></script>
+    <script src="/assets/js/imageload.min.js" defer></script>
+    <script src="/assets/js/scrollUp.min.js" defer></script>
+    <script src="/assets/js/owl.carousel.min.js" defer></script>
+    <script src="/assets/js/magnific-popup.min.js" defer></script>
+    <script src="/assets/js/counterup.min.js" defer></script>
+    <script src="/assets/js/wow.min.js" defer></script>
+    <script src="/assets/js/metismenu.js" defer></script>
+    <script src="/assets/js/timeline.min.js" defer></script>
+    <script src="/assets/js/ajax-mail.js" defer></script>
+    <script src="/assets/js/active.js" defer></script>
 
-  
-  <script>
-    window.onload = function() {
-      document.getElementById('preloader').style.display = 'none';
-      // ... hasta que no carga la pagina el preloader no se va
-    };
-  </script>
-    <script src="/assets/js/jquery.min.js" is:inline ></script>
-    <script src="/assets/js/modernizr.min.js" is:inline></script>
-    <script src="/assets/js/jquery.easing.js" is:inline></script>
-    <script src="/assets/js/popper.min.js" is:inline></script>
-    <script src="/assets/js/bootstrap.min.js" is:inline></script>
-    <script src="/assets/js/isotope.pkgd.min.js" is:inline></script>
-    <script src="/assets/js/imageload.min.js" is:inline></script>
-    <script src="/assets/js/scrollUp.min.js" is:inline></script>
-    <script src="/assets/js/owl.carousel.min.js" is:inline></script>
-    <script src="/assets/js/magnific-popup.min.js" is:inline></script>
-    <script src="/assets/js/counterup.min.js" is:inline></script>
-    <script src="/assets/js/wow.min.js" is:inline></script>
-    <script src="/assets/js/metismenu.js" is:inline></script>
-    <script src="/assets/js/timeline.min.js" is:inline></script>
-    <script src="/assets/js/ajax-mail.js" is:inline></script>
-    <script src="/assets/js/active.js" is:inline></script>
+    <script>
+      window.onload = function() {
+        document.getElementById('preloader').style.display = 'none';
+      };
+    </script>
   </body>
 </html>

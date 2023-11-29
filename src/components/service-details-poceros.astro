@@ -1,0 +1,238 @@
+---
+import {DATOS} from '../valores/constantes.js';
+
+
+const {telefono, direccion,number, email} = DATOS;
+
+const {
+  title,
+  titleFaqs,
+  _html,
+  conclusion,
+  titleConclusion,
+  title2,
+  text2,
+  intro,
+  faq1,
+  faq2,
+  faq3,
+  answer1,
+  answer2,
+  answer3,
+  conclusion2,
+  serviceTitle,
+  image1,
+  image2,
+  image3,
+  image4,
+  alt3,
+  alt4
+} = Astro.props;
+
+// Obtén todos los archivos Markdown de la carpeta /data
+const markdownFiles = await Astro.glob('../data/poceros/*.md');
+// Obtén el slug de la URL actual
+const urlActual = new URL(Astro.request.url);
+const slugActual = urlActual.pathname;
+
+
+// Mapea y filtra los enlaces
+const links = markdownFiles.map(file => ({
+  nombre: file.frontmatter.bannerRuta,
+  url: file.frontmatter.slug,
+})).filter(link => `/poceros/${link.url }`!== slugActual);
+
+
+---
+
+<section class="service-details-wrapper section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 mt-5 mt-md-0 col-12 order-2 order-md-1">
+        <div class="service-details-sidebar">
+          <div class="single-service-sidebar">
+            <div class="sidebar-title">
+              <h3>{serviceTitle}</h3>
+            </div>
+            <ul>
+              {
+                links.map((link) => (
+                  <li>
+                    <a href={link.url}>{link.nombre}</a>
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+
+          <div class="single-service-sidebar site_info_widget">
+            <div class="sidebar-title">
+              <h3>Contacto</h3>
+            </div>
+            <div class="contact-us">
+              <div class="single-contact-info">
+                <div class="icon">
+                  <i class="fal fa-phone"></i>
+                </div>
+                <div class="contact-info">
+                  <span>Teléfono</span>
+                  <a href=`tel://${number}`><p>{telefono}</p></a>
+                </div>
+              </div>
+              <div class="single-contact-info">
+                <div class="icon">
+                  <i class="fal fa-envelope"></i>
+                </div>
+                <div class="contact-info">
+                  <span>Email</span>
+                  <a href=`mailto:${email}`
+                    ><p>{email}</p></a
+                  >
+                </div>
+              </div>
+              <div class="single-contact-info">
+                <div class="icon">
+                  <i class="fal fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-info">
+                  <span>Dirección</span><a
+                    href="https://www.google.com/maps/dir//C.+Lezo,+8,+28041+Madrid/@40.352015,-3.7637838,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0xd422769a6e0b8b1:0xddf53229d5b6bfbc!2m2!1d-3.6937439!2d40.3520361"
+                    ><p>{direccion}</p></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-8 col-12 order-1 order-md-2">
+        <div class="service-details-content-wrapper pl-0 pl-md-4">
+          <div class="service-gallery owl-carousel owl-theme">
+            <div
+              class="single-service-photo bg-cover"
+              style={`background-image: url(${image1})`}
+            >
+            </div>
+
+            <div
+              class="single-service-photo bg-cover"
+              style={`background-image: url(${image2})`}
+            >
+            </div>
+          </div>
+
+          <h2>{title}</h2>
+          <p>
+            {intro}
+          </p>
+
+          <h2>{title2}</h2>
+          <p>{text2}</p>
+
+          
+
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <a href={image3} class="popup-gallery"
+                ><img src={image3} alt={alt3} /></a
+              >
+            </div>
+            <div class="col-md-6 col-12">
+              <a href={image4} class="popup-gallery"
+                ><img src={image4} alt={alt4} /></a
+              >
+            </div>
+          </div>
+
+          <div set:html={_html}></div>
+          
+
+         
+        </div>
+
+        <div class="faq-content pl-0 pl-md-4">
+          <h2>{titleFaqs}</h2>
+          <div class="faq-accordion">
+            <div id="accordion" class="accordion">
+              <div class="card">
+                <div class="card-header" id="faq1">
+                  <p class="mb-0 text-capitalize">
+                    <a
+                      class="collapsed"
+                      role="button"
+                      data-toggle="collapse"
+                      aria-expanded="false"
+                      href="#faq-1"
+                    >
+                      {faq1}
+                    </a>
+                  </p>
+                </div>
+                <div id="faq-1" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    {answer1}
+                  </div>
+              
+                </div>
+              </div>
+              <!-- /card -->
+              <div class="card">
+                <div class="card-header" id="faq2">
+                  <p class="mb-0 text-capitalize">
+                    <a
+                      class="collapsed"
+                      role="button"
+                      data-toggle="collapse"
+                      aria-expanded="false"
+                      href="#faq-2"
+                    >
+                      {faq2}
+                    </a>
+                  </p>
+                </div>
+                <div id="faq-2" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    {answer2}
+                  </div>
+              
+                </div>
+              </div>
+              <!-- /card -->
+              <div class="card">
+                <div class="card-header" id="faq3">
+                  <p class="mb-0 text-capitalize">
+                    <a
+                      class="collapsed"
+                      role="button"
+                      data-toggle="collapse"
+                      aria-expanded="false"
+                      href="#faq-3"
+                    >
+                      {faq3}
+                    </a>
+                  </p>
+                </div>
+                <div id="faq-3" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    {answer3}
+                  </div>
+                
+                </div>
+              </div>
+              <!-- /card -->
+              <br />
+              <br />
+              <h2>{titleConclusion}</h2>
+              <br>
+              <p>{conclusion}</p>
+              <br>
+              <p>{conclusion2}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</section>
