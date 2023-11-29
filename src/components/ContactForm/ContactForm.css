@@ -1,0 +1,54 @@
+.contact-form {
+  max-width: 60%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Fondo gris claro para el formulario */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #00235A 1px solid;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%; 
+  border: #00235A 1px solid;
+  /* Asegúrate de que los elementos del formulario ocupen todo el ancho */
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #33C9C3; /* Borde con el color de acento */
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: white; /* Fondo blanco para los campos de entrada */
+  color: #333; /* Color del texto para mayor contraste */
+}
+
+.submit-btn {
+  background-color: #33C9C3;
+  color: white;
+  border: none;
+  padding: 12px 40px; /* Padding más grande para un botón más ancho */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center; 
+  font-size: 1em; /* Tamaño de fuente opcional para el botón */
+}
+
+.submit-btn:hover {
+  background-color: #00235A;
+}
+
+
+  .contact-title {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  
+  

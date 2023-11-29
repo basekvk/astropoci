@@ -6,6 +6,8 @@ export const DATOS = {
     facebook: "https://www.facebook.com/desatascospociten",
     instagram: "https://instagram.com/pociten_desatascos",
     youtube: "https://www.youtube.com/@PocitenDesatascos",
+    linkedin: "https://www.linkedin.com/company/desatascos-pociten/",
+    twitter: "https://twitter.com/pociten",
     nombre: "Pocería Pociten",
     CIF: "B-56235755",
     web: "https://www.desatrancos-madrid.es",

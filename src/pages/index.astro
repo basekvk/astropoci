@@ -1,22 +1,35 @@
 ---
 import Cluster from "../components/Cluster.astro";
+import ReviewCard from "../components/ReviewCard.astro";
 import About from "../components/about.astro";
+import Approach from "../components/approach.astro";
 import Cta from "../components/cta.astro";
 import Hero from "../components/hero.astro";
+import ContactForm from "../components/contactform/ContactForm";
+import CallButton from "../components/CallButton/CallButton"
+
 //import Sponsors from "../components/sponsors.astro";
 import Layout from "../layout/Layout.astro";
+import {DATOS} from "../valores/constantes.js"
+
+const {number} = DATOS;
 ---
 
 <Layout
     titleSEO={"Poceros - Desatascos 24 horas en Madrid | Pociten "}
-    descriptionMeta={"Desatascos Pociten, tu solución de confianza para desatascos en Madrid. Poceros las 24 horas del día. Llámanos al ☎️ 647 37 67 82 para solucionar tus problemas de atascos."}
+    descriptionMeta={"Desatascos Pociten, tu solución de confianza. Poceros las 24 horas del día. Llámanos al ☎️ 647 376 782.Mejores precios del mercado"}
 >
    
     <Hero />
     <About />
-    
     <Cluster />
+    <CallButton  phoneNumber= {number} />
+    <Approach />
     <Cta />
+    <br></br>
+     <ReviewCard />
+     <ContactForm client:load  />
+    
     <br />
     <br />
     <br />

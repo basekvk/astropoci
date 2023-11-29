@@ -1,0 +1,41 @@
+.social-links-container {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    gap: 40px; /* Aumentamos el espacio entre íconos */
+  }
+  
+  .social-icon {
+    font-size: 48px; /* El doble del tamaño original */
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1); /* Efecto de crecimiento al pasar el mouse */
+  }
+  
+  /* Colores de los íconos */
+  .linkedin {
+    color: #0e76a8; /* Color de LinkedIn */
+  }
+  
+  .twitter {
+    color: #1DA1F2; /* Color de Twitter */
+  }
+  
+  .instagram {
+    color: #E1306C; /* Color de Instagram */
+  }
+  
+  .youtube {
+    color: #FF0000; /* Color de YouTube */
+  }
+  
+  .email {
+    color: #D44638; /* Color de Email */
+  }
+  
+  .phone {
+    color: #34B7F1; /* Color de Phone, puedes elegir el que prefieras */
+  }
+  

@@ -1,0 +1,32 @@
+.call-button-container {
+    text-align: center; /* Centra el botón en su contenedor */
+    background-color:#F6F6F6 ;
+    padding: 20px;
+    
+  }
+  
+  .call-button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #33C9C3; /* Color turquesa */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Remover el subrayado del enlace */
+    display: inline-flex; /* Para alinear el ícono y el texto */
+    align-items: center; /* Alineación vertical del ícono y el texto */
+    gap: 5px; /* Espacio entre el ícono y el texto */
+    margin-bottom: 20px;
+  }
+  
+  .call-button:hover {
+    background-color: #00235A; /* Color azul oscuro al pasar el mouse */
+    color: white;
+  }
+  
+  .phone-icon {
+    font-size: 1.2em; /* Tamaño del ícono de teléfono */
+  }
+  

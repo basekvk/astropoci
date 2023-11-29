@@ -3,6 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from "@emailjs/browser";
 import React from "react";
+import SocialLinks from './SocialLinks/SocialLinks';
 
 
 const FormularioContacto = () => {
@@ -46,6 +47,7 @@ const FormularioContacto = () => {
         <h2 style={{ textAlign: "center" }}>CONTACTA CON DESATASCOS POCITEN</h2>
       </div>
     </div>
+    <SocialLinks />
     <br />
     <div className="row">
       <div className="col-12 col-lg-12">
