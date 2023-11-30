@@ -67,11 +67,9 @@ const FormularioContacto = () => {
     </div>
     <div className="row section-padding pb-0">
       <div className="col-12 text-center mb-20">
-        <span>
-          <i className="fal fa-pen" />
-          Deja tu Mensaje
-        </span>
-        <h1>PIDE TU PRESUPUESTO</h1>
+        
+        <h1>SOLICITA PRESUPUESTO</h1>
+        <p>Si quieres solicitar un presupuesto, dejar tus datos para que te llamemos o simplemente alguna duda o sugerencia, este es tu lugar.</p>
       </div>
     </div>
     <div className="col-12 col-lg-12">

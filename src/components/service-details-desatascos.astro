@@ -1,5 +1,6 @@
 ---
 import {DATOS} from '../valores/constantes.js';
+import ContactForm from './ContactForm/ContactForm';
 
 
 const {telefono, direccion,number, email} = DATOS;
@@ -8,6 +9,7 @@ const {
   title,
   titleFaqs,
   _html,
+  _html1,
   conclusion,
   titleConclusion,
   title2,
@@ -129,7 +131,9 @@ const links = markdownFiles.map(file => ({
           <p>{text2}</p>
 
           
+          
 
+          <div set:html={_html}></div>
           <div class="row">
             <div class="col-md-6 col-12">
               <a href={image3} class="popup-gallery"
@@ -142,93 +146,91 @@ const links = markdownFiles.map(file => ({
               >
             </div>
           </div>
-
-          <div set:html={_html}></div>
           
-
+          <div set:html={_html1}></div>
+          <ContactForm />
+          <br>
+          <br>
          
         </div>
 
         <div class="faq-content pl-0 pl-md-4">
-          <h2>{titleFaqs}</h2>
+          {titleFaqs && <h2>{titleFaqs}</h2>}
           <div class="faq-accordion">
             <div id="accordion" class="accordion">
-              <div class="card">
-                <div class="card-header" id="faq1">
-                  <p class="mb-0 text-capitalize">
-                    <a
-                      class="collapsed"
-                      role="button"
-                      data-toggle="collapse"
-                      aria-expanded="false"
-                      href="#faq-1"
-                    >
-                      {faq1}
-                    </a>
-                  </p>
-                </div>
-                <div id="faq-1" class="collapse" data-parent="#accordion">
-                  <div class="card-body">
-                    {answer1}
+              {faq1 && answer1 && (
+                <div class="card">
+                  <div class="card-header" id="faq1">
+                    <p class="mb-0 text-capitalize">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        aria-expanded="false"
+                        href="#faq-1"
+                      >
+                        {faq1}
+                      </a>
+                    </p>
                   </div>
-              
-                </div>
-              </div>
-              <!-- /card -->
-              <div class="card">
-                <div class="card-header" id="faq2">
-                  <p class="mb-0 text-capitalize">
-                    <a
-                      class="collapsed"
-                      role="button"
-                      data-toggle="collapse"
-                      aria-expanded="false"
-                      href="#faq-2"
-                    >
-                      {faq2}
-                    </a>
-                  </p>
-                </div>
-                <div id="faq-2" class="collapse" data-parent="#accordion">
-                  <div class="card-body">
-                    {answer2}
+                  <div id="faq-1" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                      {answer1}
+                    </div>
                   </div>
-              
                 </div>
-              </div>
+              )}
               <!-- /card -->
-              <div class="card">
-                <div class="card-header" id="faq3">
-                  <p class="mb-0 text-capitalize">
-                    <a
-                      class="collapsed"
-                      role="button"
-                      data-toggle="collapse"
-                      aria-expanded="false"
-                      href="#faq-3"
-                    >
-                      {faq3}
-                    </a>
-                  </p>
-                </div>
-                <div id="faq-3" class="collapse" data-parent="#accordion">
-                  <div class="card-body">
-                    {answer3}
+              {faq2 && answer2 && (
+                <div class="card">
+                  <div class="card-header" id="faq2">
+                    <p class="mb-0 text-capitalize">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        aria-expanded="false"
+                        href="#faq-2"
+                      >
+                        {faq2}
+                      </a>
+                    </p>
                   </div>
-                
+                  <div id="faq-2" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                      {answer2}
+                    </div>
+                  </div>
                 </div>
-              </div>
+              )}
               <!-- /card -->
-              <br />
-              <br />
-              <h2>{titleConclusion}</h2>
-              <br>
-              <p>{conclusion}</p>
-              <br>
-              <p>{conclusion2}</p>
+              {faq3 && answer3 && (
+                <div class="card">
+                  <div class="card-header" id="faq3">
+                    <p class="mb-0 text-capitalize">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        aria-expanded="false"
+                        href="#faq-3"
+                      >
+                        {faq3}
+                      </a>
+                    </p>
+                  </div>
+                  <div id="faq-3" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                      {answer3}
+                    </div>
+                  </div>
+                </div>
+              )}
+              <!-- /card -->
             </div>
           </div>
         </div>
+        
       </div>
     </div>
   </div>

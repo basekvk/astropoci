@@ -1,7 +1,10 @@
 .call-button-container {
-    text-align: center; /* Centra el botón en su contenedor */
-    background-color:#F6F6F6 ;
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    text-align: center; /* Centra el botón en su contenedor */ ;
+    padding: 80px;
     
   }
   
