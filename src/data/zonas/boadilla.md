@@ -1,38 +1,57 @@
 ---
-image1: '/assets/img/desatascos/boadilla/desatascos-boadilla1.webp'
-image2: '/assets/img/desatascos/boadilla/desatascos-boadilla2.webp'
-image3:
-image4:
+image1: '/assets/img/desatascos/alcorcon/desatascos-alcorcon1.webp'
+image2: '/assets/img/desatascos/alcorcon/desatascos-alcorcon2.webp'
+image3: '/assets/img/desatascos/alcorcon/desatasco1.jpg'
+image4: '/assets/img/desatascos/alcorcon/desatrancos2.jpg'
+alt1:
+alt2:
+alt3:
+alt4:
 slug: boadilla-del-monte
 
-bannerTitle: Desatascos Boadilla del Monte
+bannerTitle: Poceros Boadilla del Monte
 bannerRuta: Boadilla del Monte
 
-titleSEO: "Desatascos en Boadilla del Monte: servicios de calidad y eficacia 🛠️ Desatascos Pociten"
-descriptionMeta: En Desatascos Pociten, somos expertos en desatascos Boadilla del Monte, brindando servicios profesionales y eficientes para resolver cualquier problema de atasco en tuberías y alcantarillas. ¡Contáctanos ya!
+titleSEO: "Poceros en Boadilla del Monte: servicios de calidad y eficacia 🛠️ Pociten"
+descriptionMeta: Pociten, poceros expertos en  Boadilla del Monte, brindando servicios profesionales y eficientes para resolver cualquier problema de atasco en tuberías y alcantarillas. ¡Contáctanos ya!
 
-title: "Desatascos Pociten - Tu Solución Confiable para Desatascos en Boadilla"
-intro: ¡Bienvenidos a Desatascos Pociten! Somos la empresa líder en servicios de desatascos, poceros, desatrancos y fontaneros en Boadilla y sus alrededores. Con años de experiencia y un equipo de profesionales altamente capacitados, estamos preparados para solucionar cualquier problema de tuberías, alcantarillado y saneamiento que pueda enfrentar.
-title2: 
-text2: En Desatascos Pociten, nos enorgullecemos de ofrecer servicios de desatascos en Boadilla, poceros en Boadilla, desatrancos en Boadilla y fontaneros en Boadilla de alta calidad y eficiencia. Nuestros especialistas están equipados con las últimas tecnologías y herramientas para asegurar un servicio rápido y efectivo en cada proyecto que realizamos.
+_contenido: "
 
+
+ <h2>Pociten: Soluciones de Pocería en Boadilla del Monte</h2>
+    <p>En <strong>Pociten</strong>, nos destacamos por ofrecer servicios profesionales de pocería en Boadilla del Monte. Con una amplia experiencia en el sector, nuestro equipo está dedicado a proporcionar soluciones eficientes y efectivas para todas tus necesidades de pocería.</p>
+
+    <h3>¿Por Qué Elegir a Pociten?</h3>
+    <ul>
+        <li>⇨<strong> Experiencia Comprobada</strong>: Más de 25 años ofreciendo soluciones en pocería.</li>
+        <br>
+        <li>⇨<strong> Tecnología Avanzada</strong>: Equipos de última generación para diagnósticos y soluciones precisas.</li>
+        <br>
+        <li>⇨<strong> Servicio Personalizado</strong>: Nos adaptamos a las necesidades específicas de cada cliente en Boadilla del Monte.</li>
+    </ul>
+<br>
+    <h2>Nuestros Servicios de Pocería</h2>
+    <h3>Limpieza y Mantenimiento de Fosas Sépticas</h3>
+    <p>Ofrecemos servicios completos de limpieza y mantenimiento de fosas sépticas para garantizar su funcionamiento óptimo.</p>
+
+    <h3>Reparación de Alcantarillado</h3>
+    <p>Nuestros expertos están especializados en la reparación y mantenimiento de sistemas de alcantarillado, utilizando técnicas eficientes y seguras.</p>
+
+    <h3>Soluciones Rápidas para Atascos</h3>
+    <p>Respondemos con rapidez a cualquier emergencia de atascos, proporcionando soluciones efectivas para minimizar las molestias.</p>
+
+"
+_contenido1: "
+
+
+
+"
 _html: "
-<h3>¿Por qué elegir a Desatascos Pociten en Boadilla?</h3>
-<p>Como una empresa comprometida con nuestros clientes, entendemos la importancia de resolver los problemas de manera oportuna y profesional. Por eso, en Desatascos Pociten, nos aseguramos de que cada uno de nuestros técnicos esté altamente capacitado y familiarizado con los métodos más efectivos para solucionar problemas de atascos y bloqueos.</p>
-<p>Nuestros servicios incluyen:</p>
-<ul>
-		<li><strong>Desatascos:</strong> Nos encargamos de eliminar atascos y obstrucciones en tuberías, desagües y sistemas de alcantarillado, asegurando un flujo adecuado del agua.</li>
-        <br>
-		<li><strong>Poceros:</strong>Realizamos trabajos de pocería, como la construcción, reparación y mantenimiento de pozos, alcantarillas y sistemas de drenaje.</li>
-        <br>
-		<li><strong>Desatrancos:</strong>Nuestros expertos solucionan problemas de atascos y bloqueos en sistemas de alcantarillado y drenaje, utilizando técnicas de desatranco eficientes y seguras.</li>
-        <br>
-		<li><strong>Fontaneros en Boadilla:</strong>Contamos con un equipo de fontaneros expertos que se encargan de la instalación, reparación y mantenimiento de sistemas de fontanería y calefacción</li>
-        <br>
+<h2>Compromiso con Boadilla del Monte</h2>
+    <p>En <strong>Pociten</strong>, estamos comprometidos con la comunidad de Boadilla del Monte, ofreciendo servicios de calidad para mejorar la infraestructura y calidad de vida de la localidad.</p>
 
-
-        <h3>Satisfacción del Cliente</h3>
-        <p>En Desatascos Pociten, nos esforzamos por mantener un alto nivel de satisfacción del cliente. Por esta razón, ofrecemos garantías en todos nuestros trabajos y mantenemos una comunicación abierta y honesta con nuestros clientes durante todo el proceso. Además, nuestra disponibilidad 24/7 garantiza que siempre estaremos allí cuando nos necesite.</p>
+    <p><strong>Contacta con Nosotros</strong><br>
+    Si estás en Boadilla del Monte y necesitas servicios de pocería, <strong>Pociten</strong> es tu solución. Contáctanos y descubre cómo podemos ayudarte.</p>
         
         
 	    

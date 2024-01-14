@@ -1,33 +1,56 @@
 ---
-image1: '/assets/img/desatascos/coslada/desatascos-coslada1.webp'
-image2: '/assets/img/desatascos/coslada/desatascos-coslada2.webp'
-image3:
-image4:
+image1: '/assets/img/desatascos/alcorcon/desatascos-alcorcon1.webp'
+image2: '/assets/img/desatascos/alcorcon/desatascos-alcorcon2.webp'
+image3: '/assets/img/desatascos/alcorcon/desatasco1.jpg'
+image4: '/assets/img/desatascos/alcorcon/desatrancos2.jpg'
+alt1:
+alt2:
+alt3:
+alt4:
 slug: coslada
 
-bannerTitle: Desatascos Coslada
+bannerTitle: Poceros Coslada
 bannerRuta: Coslada
 
-titleSEO: "Desatascos en Coslada: servicios de calidad y eficacia 🛠️ Desatascos Pociten"
-descriptionMeta: En Desatascos Pociten, somos expertos en desatascos Coslada, brindando servicios profesionales y eficientes para resolver cualquier problema de atasco en tuberías y alcantarillas. ¡Contáctanos ya!
+titleSEO: "Poceros en Coslada - Mejoramos Tu Presupuesto 🛠️ Pociten"
+descriptionMeta: Pociten, somos expertos poceros  en Coslada, brindando servicios profesionales y eficientes para resolver cualquier problema de atasco en tuberías y alcantarillas. Mejoramos tu presupuesto ¡Contáctanos ya!
 
-title: "Desatascos, Poceros, Desatrancos y Fontaneros en Coslada"
-intro: Como expertos en servicios de desatascos, pocería, desatrancos y fontanería en Coslada, en Desatascos Pociten estamos comprometidos con la satisfacción de nuestros clientes. Nuestro objetivo es ofrecer soluciones eficaces y de calidad en todas las situaciones de emergencia o mantenimiento que puedan surgir en su hogar o negocio.
-title2: ¿Qué son los desatascos?
-text2: Los desatascos son servicios especializados para eliminar obstrucciones en tuberías, ya sea en la red de saneamiento de una vivienda o en las instalaciones de una empresa. Estas obstrucciones pueden ser causadas por diversos factores como acumulación de residuos, restos de alimentos, cabello, papel higiénico, entre otros. En Desatascos Pociten contamos con los equipos y técnicas necesarias para resolver cualquier tipo de atasco en Coslada.
+_contenido: "
+
+
+    <h2>Expertos en Pocería en Coslada</h2>
+    <p>En <strong>Pociten</strong>, nos especializamos en ofrecer soluciones de pocería de alta calidad en Coslada. Con un equipo de expertos y tecnología avanzada, estamos preparados para afrontar cualquier desafío en pocería, asegurando resultados óptimos y duraderos.</p>
+
+    <h3>Nuestros Servicios</h3>
+    <p>Desde el mantenimiento de fosas sépticas hasta la reparación y renovación de sistemas de alcantarillado, en <strong>Pociten</strong> cubrimos todas tus necesidades de pocería en Coslada.</p>
+
+    <h4>Limpieza y Mantenimiento de Fosas Sépticas</h4>
+    <p>Garantizamos un servicio completo para el mantenimiento y limpieza de fosas sépticas, previniendo problemas y asegurando su funcionamiento eficiente.</p>
+
+    <h4>Reparación de Sistemas de Alcantarillado</h4>
+    <p>Expertos en la reparación y modernización de sistemas de alcantarillado, proporcionamos soluciones efectivas y duraderas para tu red de saneamiento.</p>
+
+    <h4>Desatascos y Emergencias</h4>
+    <p>Frente a atascos y emergencias, nuestro equipo responde con rapidez y eficacia, asegurando la solución más adecuada para cada situación.</p>
+
+    
+
+
+"
+_contenido1: "
+
+
+<h2>Compromiso con la Calidad y el Servicio</h2>
+    <p>En <strong>Pociten</strong>, nuestro compromiso es con la calidad y la satisfacción del cliente. Ofrecemos servicios personalizados, adaptándonos a las necesidades específicas de cada proyecto en Coslada.</p>
+
+"
+
+
+
+
 
 _html: "
-<h2>¿Qué es la pocería?</h2>
-<p>La pocería es el conjunto de servicios especializados en la instalación, mantenimiento y reparación de redes de saneamiento. En Desatascos Pociten, contamos con los profesionales más capacitados para realizar servicios de pocería en Coslada. Garantizamos una solución rápida y eficaz en la detección y reparación de fugas, roturas y problemas en la red de saneamiento.</p>
-<h2>¿Qué son los desatrancos?</h2>
-<p>Los desatrancos son servicios especializados para eliminar obstrucciones en las tuberías de una vivienda o empresa. En Desatascos Pociten, contamos con equipos y herramientas de alta tecnología para garantizar una solución efectiva y duradera en los desatrancos en Coslada. Nuestro equipo de profesionales altamente capacitados se encargará de solucionar cualquier problema de atascos que pueda tener en su hogar o negocio.</p>
-<h2>¿Qué son los fontaneros?</h2>
-<p>Los fontaneros son profesionales capacitados para instalar, reparar y mantener sistemas de tuberías, válvulas, grifos y otros componentes relacionados con el agua. En Desatascos Pociten, contamos con un equipo de fontaneros altamente capacitados en Coslada, para garantizar servicios de calidad en cualquier situación relacionada con la fontanería de su hogar o empresa.</p>
-<h2>¿Por qué elegir Desatascos Pociten?</h2>
-<p>En Desatascos Pociten, nos comprometemos a ofrecer soluciones eficaces, rápidas y de calidad en cualquier situación de desatascos, pocería, desatrancos o fontanería en Coslada. Contamos con un equipo de profesionales altamente capacitados y con una amplia experiencia en el sector, además de la tecnología más avanzada para garantizar soluciones efectivas y duraderas.</p>
-<h3>Servicios ofrecidos por Desatascos Pociten</h3>
-<p>En Desatascos Pociten ofrecemos una amplia gama de servicios de desatascos, pocería, desatrancos y fontanería en Coslada, incluyendo:</p>
-
+<h2>SERVICIOS POCEROS</h2>
 
 <ul>
 		<li>➡️Limpieza de tuberías y alcantarillado.</li>
