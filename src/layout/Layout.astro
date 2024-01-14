@@ -1,40 +1,69 @@
 ---
 import Preloader from "../components/preloader.astro";
-const { titleSEO, descriptionMeta } = Astro.props;
 import Topbarheader from "../components/topheader.astro";
 import Header from "../components/header.astro";
 import Footer from "../components/footer.astro";
+import { SEO } from "astro-seo";
+
+const { titleSEO, descriptionMeta} = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <!-- Metatags básicos -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="modinatheme" />
-    <meta name="description" content={descriptionMeta} />
+    <meta name="author" content="Pocería Pociten" />
+
     <link rel="shortcut icon" href="/favicon.ico" />
-  
+
     <!-- Título de la página -->
-    <title>{titleSEO}</title>
-   
+    <SEO
+      title={titleSEO}
+      description={descriptionMeta}
+      openGraph={{
+        basic: {
+          title: "A Very Descriptive Title",
+          type: "A type.",
+          image:
+            "https://desatrancos-madrid.es/assets/img/approch1.jpg",
+        },
+      }}
+      twitter={{
+        creator: "@pociten",
+      }}
+      extend={{
+        // extending the default link tags
+        link: [{ rel: "icon", href: "/favicon.ico" }],
+        // extending the default meta tags
+        meta: [
+          {
+            name: "twitter:image",
+            content:
+              "https://desatrancos-madrid.es/assets/img/approch1.jpg",
+          },
+          { name: "twitter:title", content: "Pocería Pociten" },
+          { name: "twitter:description", content: "Empresa de pocería, desatascos de tuberías y alcantarillado en Madrid." },
+        ],
+      }}
+    />
+
     <!-- Preloading critical CSS files -->
-    <link rel="preload" href="/assets/css/bootstrap.min.css" as="style">
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="preload" href="/assets/css/style.css" as="style">
-    <link rel="stylesheet" href="/assets/css/style.css">
-  
+    <link rel="preload" href="/assets/css/bootstrap.min.css" as="style" />
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="preload" href="/assets/css/style.css" as="style" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
     <!-- Otros archivos CSS -->
-    <link rel="stylesheet" href="/assets/css/icons.css">
-    <link rel="stylesheet" href="/assets/css/animate.css">
-    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/assets/css/metismenu.css">
-    <link rel="stylesheet" href="/assets/css/owl.theme.css">
+    <link rel="stylesheet" href="/assets/css/icons.css" />
+    <link rel="stylesheet" href="/assets/css/animate.css" />
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/assets/css/metismenu.css" />
+    <link rel="stylesheet" href="/assets/css/owl.theme.css" />
   </head>
-  
 
   <body class="body-wrapper">
     <Preloader id="preloader" />
@@ -62,8 +91,8 @@ import Footer from "../components/footer.astro";
     <script src="/assets/js/active.js" defer></script>
 
     <script>
-      window.onload = function() {
-        document.getElementById('preloader').style.display = 'none';
+      window.onload = function () {
+        document.getElementById("preloader").style.display = "none";
       };
     </script>
   </body>

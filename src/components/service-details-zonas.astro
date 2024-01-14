@@ -10,6 +10,8 @@ const {
   _html,
   conclusion,
   titleConclusion,
+  _contenido,
+  _contenido1,
   title2,
   text2,
   intro,
@@ -121,13 +123,8 @@ const links = markdownFiles.map(file => ({
             </div>
           </div>
 
-          <h2>{title}</h2>
-          <p>
-            {intro}
-          </p>
-
-          <h2>{title2}</h2>
-          <p>{text2}</p>
+          <div set:html={_contenido}></div>
+          <div set:html={_contenido1}></div>
 
           
 

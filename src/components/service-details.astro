@@ -122,13 +122,11 @@ const links = markdownFiles.map(file => ({
             </div>
           </div>
 
-          <h2>{title}</h2>
-          <p>
-            {intro}
-          </p>
-
-          <h2>{title2}</h2>
-          <p>{text2}</p>
+          <div class="service-details-content">
+            <h2 ></h2>
+            <p set:html="">{intro}</p>
+            <p>{text2}</p>
+          </div>
 
           
 

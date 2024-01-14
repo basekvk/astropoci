@@ -1,6 +1,6 @@
 ---
 // Importaciones
-import Bannerestrecho from "../components/bannerestrecho.astro";
+import Bannerestrecho from "../components/Astro/Banner.astro";
 import Layout from "../layout/Layout.astro";
 import Faq from "../components/faq.astro";
 import ServiceDetails from "../components/service-details.astro";
@@ -50,6 +50,8 @@ if (!page) {
     bannerRuta={page?.bannerRuta}
   />
   <ServiceDetails
+  contenido={page?.contenido}
+        contenido1={page?.contenido1}
     title={page?.title}
     aboutText={page?.aboutText}
     conclusion={page?.conclusion}

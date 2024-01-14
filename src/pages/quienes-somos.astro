@@ -1,33 +1,23 @@
 ---
 import Aboutfeatured from "../components/aboutfeatured.astro";
 import Approach from "../components/approach.astro";
-import Bannerestrecho from "../components/bannerestrecho.astro";
-import Faq from "../components/faq.astro";
 import Skills from "../components/skills.astro";
 import Layout from "../layout/Layout.astro";
 import { frontmatter } from "../data/about/about.md";
+import Contacto from "./contacto.astro";
+import Banner from '@components/Astro/Banner.astro'
 ---
 
 <Layout
   title={frontmatter.metaTitle}
   descriptionMeta={frontmatter.metaDescription}
 >
-  <Bannerestrecho
+  <Banner
     bannerTitle={frontmatter.bannerTitle}
     bannerRuta={frontmatter.bannerRuta}
   />
   <Aboutfeatured />
   <Approach />
   <Skills />
-  <Faq
-    title="Preguntas frecuentes"
-    titleFaq1="¿Cuánto cuesta el servicio de desatascos en Pociten?"
-    answerFaq1="El costo de nuestros servicios de desatascos depende del tipo de problema y el alcance del trabajo que se deba realizar. En Desatascos Pociten, ofrecemos precios competitivos y transparentes, y estamos comprometidos con la satisfacción del cliente."
-    titleFaq2="¿Cuánto tiempo tardáis en solucionar un problema de atasco?"
-    answerFaq2="El tiempo que tardamos en solucionar un problema de atasco depende del tipo y la gravedad del problema. En Desatascos Pociten, nuestros profesionales están capacitados para solucionar cualquier problema de atasco en un tiempo récord."
-    titleFaq3="¿Ofrecéis servicios de emergencia las 24 horas?"
-    answerFaq3="Sí, en Desatascos Pociten ofrecemos servicios de emergencia las 24 horas del día, los 7 días de la semana. Entendemos que los problemas de atascos y limpieza pueden surgir en cualquier momento, por lo que estamos siempre disponibles para ayudarte."
-    titleFaq4="¿Cuáles son las herramientas y técnicas que utilizáis?"
-    answerFaq4="En Desatascos Pociten utilizamos las herramientas y técnicas más avanzadas del sector para solucionar problemas de atascos, como cámaras de inspección, equipos de alta presión y sistemas de detección de fugas."
-  />
+  <Contacto />
 </Layout>

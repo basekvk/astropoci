@@ -1,5 +1,5 @@
 ---
-import Bannerestrecho from '../../components/bannerestrecho.astro'
+import Banner from '../../components/Astro/Banner.astro'
 import ServiceDetails from "../../components/service-details-poceros.astro";
 import Layout from "../../layout/Layout.astro";
 
@@ -37,12 +37,14 @@ if (!page) {
 ---
 
 <Layout titleSEO={page?.titleSEO} descriptionMeta={page?.descriptionMeta}>
-  <Bannerestrecho
+  <Banner
     bannerTitle={page?.bannerTitle}
     bannerRuta={page?.bannerRuta}
   />
   
       <ServiceDetails
+      _contenido={page?._contenido}
+        _contenido1={page?._contenido1}
         title={page?.title}
         aboutText={page?.aboutText}
         conclusion={page?.conclusion}

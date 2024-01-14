@@ -1,4 +1,5 @@
 ---
+import React from "react";
 import Cluster from "../components/Cluster.astro";
 import ReviewCard from "../components/ReviewCard.astro";
 import About from "../components/about.astro";
@@ -23,7 +24,7 @@ const {number} = DATOS;
     <Hero />
     <About />
     <Cluster />
-    <CallButton  phoneNumber= {number} />
+    <CallButton  client:load/>
     <Approach />
     <Cta />
     <br></br>
