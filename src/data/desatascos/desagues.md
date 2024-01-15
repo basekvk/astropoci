@@ -16,11 +16,13 @@ descriptionMeta: ¿Tienes un problema de atasco en Madrid? En Desatascos Pociten
 
 
 
-title:  Servicios de desatascos de desagües
-intro: Los servicios de desatascos de desagües ofrecidos por profesionales como Desatascos Pociten son la solución ideal para resolver problemas de atascos en el hogar. Estos servicios incluyen la limpieza y desatascado de tuberías y desagües de cualquier tipo, ya sea en hogares, negocios o comunidades de vecinos.
+_contenido: "<h2>Servicios de desatascos de desagües</h2>
+<p>Los servicios de desatascos de desagües ofrecidos por profesionales como Desatascos Pociten son la solución ideal para resolver problemas de atascos en el hogar. Estos servicios incluyen la limpieza y desatascado de tuberías y desagües de cualquier tipo, ya sea en hogares, negocios o comunidades de vecinos.</p> "
 
-title2: La importancia de profesionales en desatascos de desagües
-text2: Es fundamental contar con fontaneros expertos en desatascos de desagües para garantizar un servicio eficiente y seguro. Los profesionales cuentan con conocimientos y herramientas especializadas para desatascar los desagües de forma adecuada, evitando daños adicionales en las tuberías. Confíar en profesionales como Desatascos Pociten garantiza resultados satisfactorios y duraderos.
+ 
+_contenido1: "<h2>La importancia de profesionales en desatascos de desagües</h2>
+<p>Es fundamental contar con fontaneros expertos en desatascos de desagües para garantizar un servicio eficiente y seguro. Los profesionales cuentan con conocimientos y herramientas especializadas para desatascar los desagües de forma adecuada, evitando daños adicionales en las tuberías. Confíar en profesionales como Desatascos Pociten garantiza resultados satisfactorios y duraderos.</p>"
+
 
 _html: "
 
