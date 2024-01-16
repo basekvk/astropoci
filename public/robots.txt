@@ -1,7 +1,2 @@
 User-agent: *
-Disallow: /aviso-legal/
-Disallow: /cookies/
-Disallow: /politica-privacidad/
-Allow: /
-
-Sitemap: https://www.poceros-madrid.com/sitemap.xml
+Disallow: /
