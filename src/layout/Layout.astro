@@ -4,6 +4,7 @@ import Topbarheader from "../components/topheader.astro";
 import Header from "../components/header.astro";
 import Footer from "../components/footer.astro";
 import { SEO } from "astro-seo";
+import SpeedInsights from '@vercel/speed-insights/astro';
 
 const { titleSEO, descriptionMeta} = Astro.props;
 ---
@@ -70,6 +71,7 @@ const { titleSEO, descriptionMeta} = Astro.props;
     <Topbarheader />
     <Header />
     <slot />
+    <SpeedInsights />
     <Footer />
 
     <!-- Deferred JavaScript -->
