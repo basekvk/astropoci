@@ -69,7 +69,7 @@ const { titleSEO, descriptionMeta} = Astro.props;
   </head>
  
   <body class="body-wrapper">
-    <Analytics />
+    <Analytics  client:idle/>
     <Preloader id="preloader" />
     <Topbarheader />
     <Header />
