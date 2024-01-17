@@ -5,6 +5,7 @@ import Header from "../components/header.astro";
 import Footer from "../components/footer.astro";
 import { SEO } from "astro-seo";
 import SpeedInsights from '@vercel/speed-insights/astro';
+import { Analytics } from '@vercel/analytics/react';
 
 const { titleSEO, descriptionMeta} = Astro.props;
 ---
@@ -64,9 +65,11 @@ const { titleSEO, descriptionMeta} = Astro.props;
     <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="/assets/css/metismenu.css" />
     <link rel="stylesheet" href="/assets/css/owl.theme.css" />
+    
   </head>
-
+ 
   <body class="body-wrapper">
+    <Analytics />
     <Preloader id="preloader" />
     <Topbarheader />
     <Header />
