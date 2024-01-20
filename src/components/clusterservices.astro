@@ -9,7 +9,7 @@ const servicios = archivosServicios.map(file => ({
   nombre: file.frontmatter.bannerRuta,
   imagen: file.frontmatter.imagen,
   icono: file.frontmatter.icono,
-  url: file.frontmatter.slug,
+  url: file.frontmatter.slug
 }));
 
 function calcularClaseAdicional(index, total) {
