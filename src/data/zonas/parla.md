@@ -10,8 +10,8 @@ slug: parla
 bannerTitle: Poceros Parla
 bannerRuta: Parla
 
-titleSEO: "Desatrancos en Móstoles: Profesionales a tu servicio | Desatascos Pociten"
-descriptionMeta: " ¿Necesitas una empresa de desatascos en Parla? En Desatascos Pociten ofrecemos servicios de limpieza de fosas sépticas, obras de pocería, inspección con cámara, limpieza de arquetas y construcción de pozos negros."
+titleSEO: "✅ Poceros Profesionales en Parla - Pociten"
+descriptionMeta: "Pociten: tus expertos en pocería en Parla. Compromiso con la calidad y mejora de presupuestos. Llámanos al 647 37 67 82 📱."
 
 _contenido: "
 <h2>🚧 <strong>Poceros en Parla: Desatascos y Mantenimiento de Fosas Sépticas las 24 Horas con Pociten</strong></h2>

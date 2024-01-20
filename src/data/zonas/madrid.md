@@ -10,8 +10,8 @@ slug: madrid
 bannerTitle: Poceros Madrid
 bannerRuta: Madrid
 
-titleSEO: "Pociten - La solución integral para problemas de fontanería y desatascos en Madrid"
-descriptionMeta: En Desatascos Pociten, somos expertos en desatascos Madrid, brindando servicios profesionales y eficientes para resolver cualquier problema de atasco en tuberías y alcantarillas. ¡Contáctanos ya!
+titleSEO: "🏙️ Poceros Profesionales en Madrid - Pociten"
+descriptionMeta: "Pociten: tu solución confiable para servicios de pocería en Madrid. Compromiso con la calidad y mejora de presupuestos. Llama al 647 37 67 82 📱."
 
 _contenido: "
 

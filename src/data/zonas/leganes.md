@@ -10,8 +10,8 @@ slug: leganes
 bannerTitle: Poceros Leganés
 bannerRuta: Leganés
 
-titleSEO: "Desatascos en Leganés: servicios de calidad y eficacia 🛠️ Desatascos Pociten"
-descriptionMeta: En Desatascos Pociten, somos expertos en desatascos Leganés, brindando servicios profesionales y eficientes para resolver cualquier problema de atasco en tuberías y alcantarillas. ¡Contáctanos ya!
+titleSEO: "⭐ Poceros Profesionales en Leganés - Pociten"
+descriptionMeta: "Pociten: tu elección confiable en servicios de pocería en Leganés. Comprometidos con la calidad y mejoramos tu presupuesto. Llámanos al 647 37 67 82 📱."
 
 _contenido: "
 

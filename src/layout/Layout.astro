@@ -7,7 +7,7 @@ import { SEO } from "astro-seo";
 import SpeedInsights from '@vercel/speed-insights/astro';
 import { Analytics } from '@vercel/analytics/react';
 
-const { titleSEO, descriptionMeta} = Astro.props;
+const { titleSEO, descriptionMeta, canonical} = Astro.props;
 ---
 
 <!doctype html>
@@ -18,6 +18,7 @@ const { titleSEO, descriptionMeta} = Astro.props;
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Pocería Pociten" />
+    
 
     <link rel="shortcut icon" href="/favicon.ico" />
 
@@ -25,12 +26,13 @@ const { titleSEO, descriptionMeta} = Astro.props;
     <SEO
       title={titleSEO}
       description={descriptionMeta}
+      canonical={canonical ? canonical:"https://poceros-madrid.es/"}
       openGraph={{
         basic: {
           title: "A Very Descriptive Title",
           type: "A type.",
           image:
-            "https://desatrancos-madrid.es/assets/img/approch1.jpg",
+            "https://poceros-madrid.es/assets/img/approch1.jpg",
         },
       }}
       twitter={{
@@ -44,7 +46,7 @@ const { titleSEO, descriptionMeta} = Astro.props;
           {
             name: "twitter:image",
             content:
-              "https://desatrancos-madrid.es/assets/img/approch1.jpg",
+              "https://poceros-madrid.es/assets/img/approch1.jpg",
           },
           { name: "twitter:title", content: "Pocería Pociten" },
           { name: "twitter:description", content: "Empresa de pocería, desatascos de tuberías y alcantarillado en Madrid." },

@@ -11,8 +11,8 @@ slug: "24-horas"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
 
-titleSEO: "Desatascos 24 Horas en Madrid, Toledo y Guadalajara | Desatascos Pociten 💪👷‍♂️🚰"
-descriptionMeta: Desatascos Pociten ofrece servicios profesionales de desatascos 24 horas en la Comunidad de Madrid, Toledo y Guadalajara. Respuesta rápida, eficaz y con la última tecnología en desatascos y limpieza de tuberías.
+titleSEO: "🌟 Desatascos 24 Horas - Pociten"
+descriptionMeta: "Pociten ofrece servicios de desatascos las 24 horas. Resolvemos problemas de forma rápida y eficiente. Llámanos al 647 37 67 82 📱."
 
 
 

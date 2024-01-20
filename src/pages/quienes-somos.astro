@@ -4,12 +4,11 @@ import Approach from "../components/approach.astro";
 import Skills from "../components/skills.astro";
 import Layout from "../layout/Layout.astro";
 import { frontmatter } from "../data/about/about.md";
-import Contacto from "./contacto.astro";
 import Banner from '@components/Astro/Banner.astro'
 ---
 
 <Layout
-  title={frontmatter.metaTitle}
+  titleSEO={frontmatter.titleSEO}
   descriptionMeta={frontmatter.metaDescription}
 >
   <Banner

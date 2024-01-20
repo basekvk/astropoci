@@ -12,9 +12,8 @@ slug: getafe
 bannerTitle: Poceros Getafe
 bannerRuta: Getafe
 
-titleSEO: "Poceros en Getafe: servicios de calidad y eficacia 🛠️ Pociten"
-descriptionMeta: Pociten, expertos poceros en Getafe, brindando servicios profesionales y eficientes para resolver cualquier problema de atasco en tuberías y alcantarillas. ¡Contáctanos ya!
-
+titleSEO: "🚀 Poceros Profesionales en Getafe - Pociten"
+descriptionMeta: "Pociten: tu solución en pocería en Getafe. Servicios rápidos y eficientes. Compromiso con la calidad y mejoramos tu presupuesto. Info: 647 37 67 82 📱."
 _contenido: "
 <h2>Expertos en Pocería para Todos tus Proyectos en Getafe</h2>
     <p>En <strong>Pociten</strong>, nos enorgullecemos de ser una referencia en servicios de pocería en Getafe. Con un enfoque en soluciones innovadoras y un equipo de <strong>poceros</strong> altamente cualificados, garantizamos la máxima eficiencia y calidad en todos nuestros servicios.</p>

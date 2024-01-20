@@ -12,8 +12,8 @@ slug: boadilla-del-monte
 bannerTitle: Poceros Boadilla del Monte
 bannerRuta: Boadilla del Monte
 
-titleSEO: "Poceros en Boadilla del Monte: servicios de calidad y eficacia 🛠️ Pociten"
-descriptionMeta: Pociten, poceros expertos en  Boadilla del Monte, brindando servicios profesionales y eficientes para resolver cualquier problema de atasco en tuberías y alcantarillas. ¡Contáctanos ya!
+titleSEO: "⚡ Servicios de Pocería en Boadilla del Monte - Pociten"
+descriptionMeta: "Pociten ofrece soluciones de pocería eficientes en Boadilla del Monte. Expertos en mantenimiento y reparaciones. Contáctanos al 647 37 67 82 📱."
 
 _contenido: "
 

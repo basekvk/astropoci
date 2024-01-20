@@ -12,7 +12,7 @@ icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
 
 titleSEO: "Desatascos en Baños - Aseos | 24 Horas| Pociten 💪👷‍♂️🚰"
-descriptionMeta: ¿Tienes un problema de atasco en Madrid? En Desatascos Pociten ofrecemos servicios de desatrancos urgentes con soluciones rápidas y profesionales. ¡Contacta con nosotros y soluciona tu problema de atasco hoy mismo! 💪👷‍♂️🚰
+descriptionMeta: "Pociten, tu solución experta en desatascos en baños y aseos. 24 Horas. Llámanos al 647 37 67 82 📱."
 
 
 

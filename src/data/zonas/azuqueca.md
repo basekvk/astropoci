@@ -12,8 +12,8 @@ slug: azuqueca-de-henares
 bannerTitle: Poceros Azuqueca de Henares
 bannerRuta: Azuqueca de Henares
 
-titleSEO: "Poceros en Azuqueca de Henares: servicios de calidad y eficacia 🛠️ Pociten"
-descriptionMeta: Pociten, poceros expertos en Azuqueca de Henares, brindando servicios profesionales y eficientes para resolver cualquier problema de atasco en tuberías y alcantarillas. ¡Contáctanos ya!
+titleSEO: "✌️ Expertos Poceros en Azuqueca de Henares - Pociten"
+descriptionMeta: "Descubre la excelencia en servicios de pocería con Pociten en Azuqueca de Henares. Eficiencia y calidad garantizadas. Llámanos al 647 37 67 82 📱."
 
 _contenido: "
 

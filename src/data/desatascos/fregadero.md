@@ -11,8 +11,8 @@ slug: "fregadero"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
 
-titleSEO: "Desatrancos Urgentes en Madrid | Solución de Atascos Rápida y Profesional | Desatascos Pociten 💪👷‍♂️🚰"
-descriptionMeta: ¿Tienes un problema de atasco en Madrid? En Desatascos Pociten ofrecemos servicios de desatrancos urgentes con soluciones rápidas y profesionales. ¡Contacta con nosotros y soluciona tu problema de atasco hoy mismo! 💪👷‍♂️🚰
+titleSEO: "🚰 Desatascos - Desatrancos de Fregadero - Pociten"
+descriptionMeta: "Pociten, tu solución experta en desatascos - desatrancos de fregaderos. Resolvemos problemas de forma rápida y eficiente. Llámanos al 647 37 67 82 📱."
 
 
 

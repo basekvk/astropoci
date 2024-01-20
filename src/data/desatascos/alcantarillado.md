@@ -11,8 +11,8 @@ slug: "alcantarillado"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
 
-titleSEO: "Desatascos de Alcantarillado - Pociten | Madrid y Alrededores 💪👷‍♂️🚰"
-descriptionMeta: Soluciones Efectivas para Desatascos de Alcantarillado por Desatascos Pociten en Madrid, Toledo y Guadalajara
+titleSEO: "🏆 Desatascos de Alcantarillado - Pociten"
+descriptionMeta: "Pociten es tu experto en desatascos de alcantarillado. Solucionamos problemas de forma rápida y eficiente. Llámanos al 647 37 67 82 📱."
 
 
 

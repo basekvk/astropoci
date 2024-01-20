@@ -11,8 +11,8 @@ slug: "tuberias"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
 
-titleSEO: "Desatrancos de Tuberías en Madrid ⊛24 Horas⊛ | Desatascos 💪👷‍♂️🚰"
-descriptionMeta: ¿Tienes un problema de atasco en Madrid? En Desatascos Pociten ofrecemos servicios de desatrancos urgentes con soluciones rápidas y profesionales. ¡Contacta con nosotros y soluciona tu problema de atasco hoy mismo! 💪👷‍♂️🚰
+titleSEO: "Desatascos 🚰 Desatrancos de Tuberías en Madrid ⊛24 Horas⊛ | Desatascos 💪👷‍♂️"
+descriptionMeta: "Pociten, tu solución experta en desatascos y desatrancos de tuberías. Resolvemos problemas de forma rápida y eficiente 24 Horas. Llámanos al 647 37 67 82 📱."
 
 
 

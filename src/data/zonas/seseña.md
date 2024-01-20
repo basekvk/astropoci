@@ -10,8 +10,8 @@ slug: sesena
 bannerTitle: Desatascos Seseña
 bannerRuta: Seseña
 
-titleSEO: "¿Necesitas desatascos en Torrejón de Ardoz? ¡Desatascos Pociten al rescate!"
-descriptionMeta: "Descubre los servicios para desatascos en Torrejón de Ardoz que ofrece Desatascos Pociten, fontaneros, obras de pocería, inspección con cámara, limpieza fosas sépticas"
+titleSEO: "⚡ Poceros Profesionales en Seseña - Pociten"
+descriptionMeta: Pociten: tus expertos en pocería en Seseña. Compromiso con la calidad y mejora de presupuestos. Llámanos al 647 37 67 82 📱."
 
 
 

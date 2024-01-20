@@ -11,8 +11,8 @@ slug: "industriales"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
 
-titleSEO: "Desatascos para Empresas en Madrid | 24 Horas | Pociten 💪👷‍♂️🚰"
-descriptionMeta: ¿Tienes un problema de atasco en Madrid? En Desatascos Pociten ofrecemos servicios de desatrancos urgentes con soluciones rápidas y profesionales. ¡Contacta con nosotros y soluciona tu problema de atasco hoy mismo! 💪👷‍♂️🚰
+titleSEO: "🏭 Desatascos Industriales | 24 Horas | Pociten 💪👷‍♂️🚰"
+descriptionMeta: "Pociten, tus expertos en desatascos industriales. Resolvemos problemas de forma rápida y eficiente en entornos industriales. Llámanos al 647 37 67 82 📱."
 
 
 _contenido: "

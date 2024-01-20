@@ -10,8 +10,8 @@ slug: sanse
 bannerTitle: Poceros San Sebastián de los Reyes
 bannerRuta: San Sebastián de los Reyes
 
-titleSEO: "Soluciona tus problemas de desatascos en San Sebastián de los Reyes | Desatascos Pociten"
-descriptionMeta: "En Desatascos Pociten, ofrecemos servicios de desatascos en San Sebastián de los Reyes, incluyendo fontaneros, obras de pocería, inspección con cámara y limpieza de fosas sépticas. ¡Contáctanos hoy!"
+titleSEO: "✨ Poceros Profesionales en San Sebastián de los Reyes - Pociten"
+descriptionMeta: "Pociten: tus expertos en pocería en San Sebastián de los Reyes. Compromiso con la calidad y mejoramos tu presupuesto. Llámanos al 647 37 67 82 📱."
 
 _contenido: "
 

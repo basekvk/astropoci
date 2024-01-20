@@ -8,8 +8,8 @@ slug: pozuelo
 bannerTitle: Poceros Pozuelo
 bannerRuta: Pozuelo
 
-titleSEO: "Desatascos en Pozuelo: Pociten, soluciones de pocería y fontanería"
-descriptionMeta: "Descubre cómo Desatascos Pociten, expertos en desatascos y desatrancos en Pozuelo, ofrece servicios integrales de fontanería, obras de pocería, inspección con cámara y limpieza de fosas sépticas."
+titleSEO: "⭐ Poceros Profesionales en Pozuelo de Alarcón - Pociten"
+descriptionMeta: "Pociten: tu elección confiable en servicios de pocería en Pozuelo de Alarcón. Compromiso con la calidad y mejoramos tu presupuesto. Llámanos al 647 37 67 82 📱."
 
 _contenido: "
 <h2>🚧 <strong>Poceros en Pozuelo: Desatascos 24 Horas y Obras de Pocería con Pociten</strong></h2>

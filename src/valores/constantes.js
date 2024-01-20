@@ -10,5 +10,5 @@ export const DATOS = {
     twitter: "https://twitter.com/pociten",
     nombre: "Pocería Pociten",
     CIF: "B-56235755",
-    web: "https://www.desatrancos-madrid.es",
+    web: "https://www.poceros-madrid.es",
 };

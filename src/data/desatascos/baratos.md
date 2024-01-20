@@ -12,7 +12,7 @@ icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
 
 titleSEO: "Desatascos Baratos en Madrid | Solución de Atascos Rápida y Profesional | Pociten 💪👷‍♂️🚰"
-descriptionMeta: ¿Tienes un problema de atasco en Madrid? En Desatascos Pociten ofrecemos servicios de desatascos urgentes con soluciones rápidas y profesionales. ¡Contacta con nosotros y soluciona tu problema de atasco hoy mismo! 💪👷‍♂️🚰
+descriptionMeta: Pociten ofrece servicios de desatascos a precios económicos. Solucionamos problemas de forma rápida y eficiente. Llámanos al 647 37 67 82 📱."
 
 
 

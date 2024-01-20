@@ -7,8 +7,9 @@ slug: alcobendas
 bannerTitle: Poceros Alcobendas
 bannerRuta: Alcobendas
 title: Poceros en Alcobendas | 24 horas ▷ Desatascos Pociten
-titleSEO: "Poceros en Alcobendas ▷ Pociten"
-descriptionMeta: Poceros en Alcobendas y sus alrededores. Contáctanos para solucionar tus problemas de tuberías y desagües. Desatascos Pociten.
+
+titleSEO: "🛠️ Poceros Profesionales en Alcobendas - Pociten"
+descriptionMeta: Pociten ofrece servicios expertos en pocería en Alcobendas 💦. Calidad y eficiencia en mantenimiento y reparaciones. Para asistencia, llama al 647 37 67 82 📱.
 
 
 _contenido: "

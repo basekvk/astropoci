@@ -10,8 +10,8 @@ slug: toledo
 bannerTitle: Poceros Toledo
 bannerRuta: Toledo
 
-titleSEO: "¿Necesitas desatascos en Torrejón de Ardoz? ¡Desatascos Pociten al rescate!"
-descriptionMeta: "Descubre los servicios para desatascos en Torrejón de Ardoz que ofrece Desatascos Pociten, fontaneros, obras de pocería, inspección con cámara, limpieza fosas sépticas"
+titleSEO: "✅ Poceros Profesionales en Toledo - Pociten"
+descriptionMeta: "Pociten: tus expertos en pocería en Toledo. Compromiso con la calidad y mejoramos tu presupuesto. Llámanos al 647 37 67 82 📱."
 
 _contenido: "
 

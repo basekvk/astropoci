@@ -10,8 +10,8 @@ slug: torrejon-de-ardoz
 bannerTitle: Poceros Torrejón de Ardoz
 bannerRuta: Torrejón de Ardoz
 
-titleSEO: "¿Necesitas desatascos en Torrejón de Ardoz? ¡Desatascos Pociten al rescate!"
-descriptionMeta: "Descubre los servicios para desatascos en Torrejón de Ardoz que ofrece Desatascos Pociten, fontaneros, obras de pocería, inspección con cámara, limpieza fosas sépticas"
+titleSEO: "🌟 Poceros Expertos en Torrejón de Ardoz - Pociten"
+descriptionMeta: "Pociten: tus expertos en pocería en Torrejón de Ardoz. Compromiso con la calidad y mejora de presupuestos. Llámanos al 647 37 67 82 📱."
 
 _contenido: "
 <h2>🚧 <strong>Poceros en Torrejón de Ardoz: Servicios Profesionales de Desatascos con Pociten</strong></h2>

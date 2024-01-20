@@ -10,9 +10,8 @@ slug: mostoles
 bannerTitle: Poceros Móstoles
 bannerRuta: Móstoles
 
-titleSEO: "Poceros en Móstoles |  Pociten"
-descriptionMeta: Encuentra en Desatascos Pociten la solución a tus problemas de fontanería y pocería en Móstoles. Expertos en desatascos, limpieza de fosas sépticas, inspección con cámara y más. ¡Contáctanos hoy!
-
+titleSEO: "⚡ Poceros Profesionales en Móstoles - Pociten"
+descriptionMeta: "Pociten: tu elección confiable en servicios de pocería en Móstoles. Compromiso con la calidad y mejoramos tu presupuesto. Llámanos al 647 37 67 82 📱."
 _contenido: "
 
 <h2>

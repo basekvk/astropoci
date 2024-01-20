@@ -12,8 +12,8 @@ slug: guadalajara
 bannerTitle: Poceros Guadalajara
 bannerRuta: Guadalajara
 
-titleSEO: "Poceros en Guadalajara: servicios de calidad y eficacia 🛠️ Pociten"
-descriptionMeta: En Pociten, somos expertos en desatascos Guadalajara, brindando servicios profesionales y eficientes para resolver cualquier problema de atasco en tuberías y alcantarillas. ¡Contáctanos ya!
+titleSEO: "✨ Poceros Expertos en Guadalajara - Pociten"
+descriptionMeta: "Descubre los mejores servicios de pocería en Guadalajara con Pociten. Calidad superior y mejoramos tu presupuesto. Contacta al 647 37 67 82 📱."
 
 _contenido: "
 <h2>Expertos en Soluciones de Pocería para Guadalajara</h2>

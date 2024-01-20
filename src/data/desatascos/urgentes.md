@@ -11,8 +11,8 @@ slug: "urgentes"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
 
-titleSEO: "Desatrancos Urgentes en Madrid | Solución de Atascos Rápida y Profesional | Desatascos Pociten 💪👷‍♂️🚰"
-descriptionMeta: ¿Tienes un problema de atasco en Madrid? En Desatascos Pociten ofrecemos servicios de desatrancos urgentes con soluciones rápidas y profesionales. ¡Contacta con nosotros y soluciona tu problema de atasco hoy mismo! 💪👷‍♂️🚰
+titleSEO: "🆘 Desatascos 🚰 Desatrancos Urgentes ⌛24 Horas - Pociten 💪👷‍♂️"
+descriptionMeta: "Pociten, tu solución en desatascos y desatrancos urgentes. Estamos disponibles las 24 horas para resolver problemas de forma rápida. Llámanos al 647 37 67 82 📱."
 
 
 

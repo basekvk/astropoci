@@ -12,8 +12,8 @@ slug: coslada
 bannerTitle: Poceros Coslada
 bannerRuta: Coslada
 
-titleSEO: "Poceros en Coslada - Mejoramos Tu Presupuesto 🛠️ Pociten"
-descriptionMeta: Pociten, somos expertos poceros  en Coslada, brindando servicios profesionales y eficientes para resolver cualquier problema de atasco en tuberías y alcantarillas. Mejoramos tu presupuesto ¡Contáctanos ya!
+titleSEO: "✅ Poceros de Calidad en Coslada - Pociten"
+descriptionMeta: "Pociten, tu elección confiable para servicios de pocería en Coslada. Expertos en todo tipo de trabajos de pocería. Contacta al 647 37 67 82 📱."
 
 _contenido: "
 

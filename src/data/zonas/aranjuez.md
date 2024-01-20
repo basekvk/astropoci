@@ -11,8 +11,8 @@ slug: aranjuez
 bannerTitle: Desatascos Aranjuez
 bannerRuta: Aranjuez
 
-titleSEO: "Desatascos en Aranjuez: servicios de calidad y eficacia 🛠️ Desatascos Pociten"
-descriptionMeta: En Desatascos Pociten, somos expertos en desatascos Aranjuez, brindando servicios profesionales y eficientes para resolver cualquier problema de atasco en tuberías y alcantarillas. ¡Contáctanos ya!
+titleSEO: "⚡ Poceros Profesionales en Aranjuez - Pociten"
+descriptionMeta: "Soluciones eficaces en pocería en Aranjuez con Pociten ✨. Calidad y rapidez asegurada. Contacta al 647 37 67 82 para un servicio de confianza 📱."
 
 _contenido1: "
 

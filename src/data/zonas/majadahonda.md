@@ -10,8 +10,8 @@ slug: majadahonda
 bannerTitle: Poceros Majadahonda
 bannerRuta: Majadahonda
 
-titleSEO: "Desatascos Pociten Majadahonda | Servicios de Pocería y Desatrancos 24/7"
-descriptionMeta: Desatascos Pociten es la empresa líder en desatascos en Majadahonda, desatrancos, limpieza de alcantarillado, fosas sépticas e inspección con cámara. Fontaneros expertos disponibles 24/7. ¡Llámanos hoy!
+titleSEO: "✅ Poceros Profesionales en Majadahonda - Pociten"
+descriptionMeta: "Pociten: tus expertos en pocería en Majadahonda. Compromiso con la calidad y mejora de presupuestos. Llámanos al 647 37 67 82 📱."
 
 _contenido: "
 

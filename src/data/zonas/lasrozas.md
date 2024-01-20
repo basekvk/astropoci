@@ -12,8 +12,8 @@ slug: las-rozas
 bannerTitle: Poceros Las Rozas
 bannerRuta: Las Rozas
 
-titleSEO: "Desatascos en Las Rozas: servicios de calidad y eficacia 🛠️ Desatascos Pociten"
-descriptionMeta: En Desatascos Pociten, somos expertos en desatascos Las Rozas, brindando servicios profesionales y eficientes para resolver cualquier problema de atasco en tuberías y alcantarillas. ¡Contáctanos ya!
+titleSEO: "✅ Poceros Profesionales en Las Rozas - Pociten"
+descriptionMeta: "Pociten: tus expertos en pocería en Las Rozas. Compromiso con la calidad y mejoramos tu presupuesto. Llámanos al 647 37 67 82 📱."
 
 _contenido: "
 
