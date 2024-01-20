@@ -26,7 +26,7 @@ const { titleSEO, descriptionMeta, canonical} = Astro.props;
     <SEO
       title={titleSEO}
       description={descriptionMeta}
-      canonical={canonical ? canonical:"https://poceros-madrid.es/"}
+      canonical={canonical ? canonical: null}
       openGraph={{
         basic: {
           title: "A Very Descriptive Title",
