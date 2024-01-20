@@ -10,7 +10,7 @@ bannerRuta: Desatascos de Baños
 slug: banos
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/desatascos/banos
 titleSEO: "Desatascos en Baños - Aseos | 24 Horas| Pociten 💪👷‍♂️🚰"
 descriptionMeta: "Pociten, tu solución experta en desatascos en baños y aseos. 24 Horas. Llámanos al 647 37 67 82 📱."
 

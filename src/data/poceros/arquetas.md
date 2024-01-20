@@ -12,7 +12,7 @@ bannerRuta: Arquetas
 slug: "arquetas"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/poceros/arquetas
 titleSEO: "🔍 Inspección y Mantenimiento de Arquetas - Pociten 📞 647 37 67 82"
 descriptionMeta: 'En Pociten ofrecemos servicios expertos en arquetas 🚀. Inspecciones detalladas y mantenimientos eficientes. Llama al 647 37 67 82 para más información 📱.'
 

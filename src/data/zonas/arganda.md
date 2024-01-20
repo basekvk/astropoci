@@ -10,7 +10,7 @@ alt4:
 slug: arganda-del-rey
 bannerTitle: Poceros Arganda del Rey
 bannerRuta: Arganda del Rey
-
+canonical: https://www.poceros-madrid.es/poceros/en/arganda-del-rey
 titleSEO: "✨ Poceros de Confianza en Arganda del Rey - Pociten"
 descriptionMeta: "Pociten, tu aliado en pocería en Arganda del Rey. Servicios rápidos, eficientes y de alta calidad. Para más detalles, llama al 647 37 67 82 📱."
 _contenido: "

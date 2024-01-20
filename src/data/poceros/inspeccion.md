@@ -12,7 +12,7 @@ bannerRuta: Inspección con Cámara
 slug: "inspeccion"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/poceros/inspeccion
 titleSEO: "Desatrancos Urgentes en Madrid | Solución de Atascos Rápida y Profesional | Desatascos Pociten 💪👷‍♂️🚰"
 descriptionMeta: 'Descubre problemas ocultos con la inspección con cámara de Pociten 🔍. Tecnología de punta para diagnósticos precisos. Contacta al 647 37 67 82 📱.'
 

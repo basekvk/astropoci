@@ -12,7 +12,7 @@ bannerRuta: Bajantes
 slug: "bajantes"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/poceros/bajantes
 titleSEO: "🏢 Soluciones en Bajantes - Pociten - Llama al 📞 647 37 67 82"
 descriptionMeta: 'Pociten, expertos en bajantes. Reparación e instalación con calidad y rapidez 🚀. Asistencia inmediata y profesional. ¡Consulta al 647 37 67 82 ahora! 🛠️'
 

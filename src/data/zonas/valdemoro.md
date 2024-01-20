@@ -7,7 +7,7 @@ alt3:
 alt4:
 slug: valdemoro
 zona: valdemoro
-
+canonical: https://www.poceros-madrid.es/poceros/en/valdemoro
 bannerTitle: Poceros Valdemoro
 bannerRuta: Valdemoro
 

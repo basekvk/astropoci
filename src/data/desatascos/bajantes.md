@@ -10,7 +10,7 @@ bannerRuta: Desatascos de bajantes
 slug: bajantes
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/desatascos/bajantes
 titleSEO: "Desatascos de Bajantes en Madrid | Pociten 💪👷‍♂️🚰"
 descriptionMeta: "Pociten es tu experto en desatascos de bajantes. Solucionamos problemas de forma rápida y eficiente. Llámanos al 647 37 67 82 📱." 
 

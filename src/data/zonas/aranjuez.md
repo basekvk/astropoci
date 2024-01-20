@@ -10,7 +10,7 @@ alt4:
 slug: aranjuez
 bannerTitle: Desatascos Aranjuez
 bannerRuta: Aranjuez
-
+canonical: https://www.poceros-madrid.es/poceros/en/aranjuez
 titleSEO: "⚡ Poceros Profesionales en Aranjuez - Pociten"
 descriptionMeta: "Soluciones eficaces en pocería en Aranjuez con Pociten ✨. Calidad y rapidez asegurada. Contacta al 647 37 67 82 para un servicio de confianza 📱."
 

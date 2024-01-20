@@ -8,7 +8,7 @@ alt2:
 alt3:
 alt4:
 slug: coslada
-
+canonical: https://www.poceros-madrid.es/poceros/en/coslada
 bannerTitle: Poceros Coslada
 bannerRuta: Coslada
 

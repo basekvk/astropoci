@@ -7,7 +7,7 @@ slug: pozuelo
 
 bannerTitle: Poceros Pozuelo
 bannerRuta: Pozuelo
-
+canonical: https://www.poceros-madrid.es/poceros/en/pozuelo-de-alarcon
 titleSEO: "⭐ Poceros Profesionales en Pozuelo de Alarcón - Pociten"
 descriptionMeta: "Pociten: tu elección confiable en servicios de pocería en Pozuelo de Alarcón. Compromiso con la calidad y mejoramos tu presupuesto. Llámanos al 647 37 67 82 📱."
 

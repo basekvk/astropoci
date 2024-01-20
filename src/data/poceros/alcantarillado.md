@@ -12,7 +12,7 @@ bannerRuta: Alcantarillado
 slug: "alcantarillado"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/poceros/alcantarillado
 titleSEO: "🚧 Servicios de Alcantarillado | Pociten - Expertos en Pocería 🛠️"
 descriptionMeta: 'Descubre con Pociten🌟, líderes en pocería, soluciones eficientes para el alcantarillado. Mantenimiento y reparación con tecnología avanzada. ¡Contáctanos! 📞'
 

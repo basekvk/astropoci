@@ -10,7 +10,7 @@ bannerRuta: Desatascos Baratos
 slug: "baratos"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/desatascos/baratos
 titleSEO: "Desatascos Baratos en Madrid | Solución de Atascos Rápida y Profesional | Pociten 💪👷‍♂️🚰"
 descriptionMeta: Pociten ofrece servicios de desatascos a precios económicos. Solucionamos problemas de forma rápida y eficiente. Llámanos al 647 37 67 82 📱."
 

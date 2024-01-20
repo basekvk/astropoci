@@ -6,7 +6,7 @@ alt1: poceros madrid
 alt3:
 alt4:
 slug: madrid
-
+canonical: https://www.poceros-madrid.es/poceros/en/madrid
 bannerTitle: Poceros Madrid
 bannerRuta: Madrid
 

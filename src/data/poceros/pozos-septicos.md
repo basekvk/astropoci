@@ -12,7 +12,7 @@ bannerRuta: Pozos Sépticos
 slug: "pozos-septicos"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/poceros/pozos-septicos
 titleSEO: "🌱 Soluciones Profesionales en Pozos Sépticos - Pociten 📞 647 37 67 82"
 descriptionMeta: "Pociten expertos en pozos sépticos. Instalación, mantenimiento y limpieza ecológica 🌍. Servicio confiable y rápido. ¡Consulta al 647 37 67 82 ahora! 🚀"
 

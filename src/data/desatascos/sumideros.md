@@ -10,7 +10,7 @@ bannerRuta: Desatascos Sumideros
 slug: "sumideros"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/desatascos/sumideros
 titleSEO: "🌟 Desatascos Profesionales | 24 horas - Pociten"
 descriptionMeta: "Pociten, tus expertos en desatascos 24 horas. Resolvemos problemas de forma rápida y eficiente en desagües y sumideros. Llámanos al 647 37 67 82 📱."
 

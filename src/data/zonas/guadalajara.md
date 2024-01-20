@@ -8,7 +8,7 @@ alt2:
 alt3:
 alt4:
 slug: guadalajara
-
+canonical: https://www.poceros-madrid.es/poceros/en/guadalajara
 bannerTitle: Poceros Guadalajara
 bannerRuta: Guadalajara
 

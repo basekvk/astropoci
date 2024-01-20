@@ -10,7 +10,7 @@ bannerRuta: Desatascos Alcantarillado
 slug: "alcantarillado"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/desatascos/alcantarillado
 titleSEO: "🏆 Desatascos de Alcantarillado - Pociten"
 descriptionMeta: "Pociten es tu experto en desatascos de alcantarillado. Solucionamos problemas de forma rápida y eficiente. Llámanos al 647 37 67 82 📱."
 

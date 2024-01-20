@@ -12,7 +12,7 @@ bannerRuta: Fosas Sépticas
 slug: "fosas-septicas"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/poceros/fosas-septicas
 titleSEO: 🌿 Mantenimiento de Fosas Sépticas - Pociten 📞 647 37 67 82
 descriptionMeta: 'Servicio completo en fosas sépticas con Pociten 🌟. Limpieza, mantenimiento y reparación ecológica. Profesionales de confianza. Llama al 647 37 67 82 📱'
 

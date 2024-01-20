@@ -12,7 +12,7 @@ bannerRuta: Obras de Pocería
 slug: "obras-de-poceria"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/poceros/obras-de-poceria
 titleSEO: '🛠️ Expertos en Servicios de Pocería - Pociten 📞 647 37 67 82'
 descriptionMeta: 'Pociten: tu solución integral en servicios de pocería 🌟. Profesionales en mantenimiento y reparación. Asesoría experta al 647 37 67 82. ¡Llámanos! 📱'
 

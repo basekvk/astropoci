@@ -12,7 +12,7 @@ bannerRuta: Localización de Fugas
 slug: "localizacion-de-fugas"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/poceros/localizacion-de-fugas
 titleSEO: "🔍 Localización de Fugas de Agua Precisa - Pociten 📞 647 37 67 82"
 descriptionMeta: 'Encuentra fugas de agua rápidamente con Pociten 💦. Expertos en localización precisa de fugas. Soluciones eficaces y rápidas. Llama al 647 37 67 82 📱.'
 

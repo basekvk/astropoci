@@ -12,7 +12,7 @@ bannerRuta: Bombas de Agua
 slug: "bombas-de-agua"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/poceros/bombas-de-agua
 titleSEO: "💧 Instalación y Mantenimiento de Bombas de Agua - Pociten 📞 647 37 67 82"
 descriptionMeta: '¿Problemas con tu bomba de agua? Pociten te ofrece soluciones rápidas y eficientes 🛠️. Expertos en instalación y mantenimiento. ¡Llámanos al 647 37 67 82! 💦'
 

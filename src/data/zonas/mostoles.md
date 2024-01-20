@@ -6,7 +6,7 @@ alt1: poceros móstoles
 alt3:
 alt4:
 slug: mostoles
-
+canonical: https://www.poceros-madrid.es/poceros/en/mostoles
 bannerTitle: Poceros Móstoles
 bannerRuta: Móstoles
 

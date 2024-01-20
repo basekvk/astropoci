@@ -11,7 +11,7 @@ slug: fuenlabrada
 
 bannerTitle: Poceros Fuenlabrada
 bannerRuta: Fuenlabrada
-
+canonical: https://www.poceros-madrid.es/poceros/en/fuenlabrada
 titleSEO: "⭐ Servicio Experto de Pocería en Fuenlabrada - Pociten"
 descriptionMeta: "En Pociten, ofrecemos servicios de pocería de alta calidad en Fuenlabrada. Comprometidos con la excelencia y mejoramos tu presupuesto. Llama al 647 37 67 82 📱."
 

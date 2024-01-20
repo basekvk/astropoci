@@ -10,7 +10,7 @@ bannerRuta: Desatascos de Fregadero
 slug: "fregadero"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/desatascos/fregadero
 titleSEO: "🚰 Desatascos - Desatrancos de Fregadero - Pociten"
 descriptionMeta: "Pociten, tu solución experta en desatascos - desatrancos de fregaderos. Resolvemos problemas de forma rápida y eficiente. Llámanos al 647 37 67 82 📱."
 

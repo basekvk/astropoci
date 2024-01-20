@@ -6,7 +6,7 @@ alt1:
 alt3:
 alt4:
 slug: torrejon-de-ardoz
-
+canonical: https://www.poceros-madrid.es/poceros/en/torrejon-de-ardoz
 bannerTitle: Poceros Torrejón de Ardoz
 bannerRuta: Torrejón de Ardoz
 

@@ -10,7 +10,7 @@ bannerRuta: Desatascos de Arquetas
 slug: "arquetas"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/desatascos/arquetas
 titleSEO: "🌟 Desatascos de Arquetas - Pociten"
 descriptionMeta: "Pociten es tu experto en desatascos de arquetas. Solucionamos problemas de forma rápida y eficiente. Llámanos al 647 37 67 82 📱."
 

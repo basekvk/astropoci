@@ -6,7 +6,7 @@ alt1:
 alt3:
 alt4:
 slug: toledo
-
+canonical: https://www.poceros-madrid.es/poceros/en/toledo
 bannerTitle: Poceros Toledo
 bannerRuta: Toledo
 

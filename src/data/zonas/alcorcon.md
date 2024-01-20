@@ -6,7 +6,7 @@ image4: '/assets/img/desatascos/alcorcon/desatrancos2.jpg'
 slug: alcorcon
 bannerTitle: Poceros Alcorcón
 bannerRuta: Alcorcón
-
+canonical: https://www.poceros-madrid.es/poceros/en/alcorcon
 titleSEO: ⭐ Poceros Expertos en Alcorcón - Pociten
 descriptionMeta: Confía en Pociten para tus necesidades de pocería en Alcorcón ✅. Servicio rápido, eficiente y profesional. Llama al 647 37 67 82 para más información 📱
 

@@ -10,7 +10,7 @@ bannerRuta: Desatascos urgentes
 slug: "urgentes"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/desatascos/urgentes
 titleSEO: "🆘 Desatascos 🚰 Desatrancos Urgentes ⌛24 Horas - Pociten 💪👷‍♂️"
 descriptionMeta: "Pociten, tu solución en desatascos y desatrancos urgentes. Estamos disponibles las 24 horas para resolver problemas de forma rápida. Llámanos al 647 37 67 82 📱."
 

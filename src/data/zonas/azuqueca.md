@@ -8,7 +8,7 @@ alt2:
 alt3:
 alt4:
 slug: azuqueca-de-henares
-
+canonical: https://www.poceros-madrid.es/poceros/en/azuqueca-de-henares
 bannerTitle: Poceros Azuqueca de Henares
 bannerRuta: Azuqueca de Henares
 

@@ -5,8 +5,8 @@ image4: '/assets/img/desatascos/alcorcon/desatrancos2.jpg'
 alt1: 
 alt3:
 alt4:
-slug: sanse
-
+slug: san-sebastian-de-los-reyes
+canonical: https://www.poceros-madrid.es/poceros/en/san-sebastian-de-los-reyes
 bannerTitle: Poceros San Sebastián de los Reyes
 bannerRuta: San Sebastián de los Reyes
 

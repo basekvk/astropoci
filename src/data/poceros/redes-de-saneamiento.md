@@ -12,7 +12,7 @@ bannerRuta: Redes de Saneamiento
 slug: "redes-de-saneamiento"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/poceros/redes-de-saneamiento
 titleSEO: '🌐 Mantenimiento de Redes de Saneamiento - Pociten 📞 647 37 67 82'
 descriptionMeta: 'Gestiona eficazmente las redes de saneamiento con Pociten 💧. Servicios profesionales de revisión y mantenimiento. Contáctanos al 647 37 67 82 📱.'
 

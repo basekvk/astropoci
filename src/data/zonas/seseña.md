@@ -6,7 +6,7 @@ alt1:
 alt3:
 alt4:
 slug: sesena
-
+canonical: https://www.poceros-madrid.es/poceros/en/sesena
 bannerTitle: Desatascos Seseña
 bannerRuta: Seseña
 

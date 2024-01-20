@@ -6,6 +6,7 @@ image4: '/assets/img/desatascos/alcorcon/desatrancos2.jpg'
 slug: alcobendas
 bannerTitle: Poceros Alcobendas
 bannerRuta: Alcobendas
+canonical: https://www.poceros-madrid.es/poceros/en/alcobendas
 title: Poceros en Alcobendas | 24 horas ▷ Desatascos Pociten
 
 titleSEO: "🛠️ Poceros Profesionales en Alcobendas - Pociten"

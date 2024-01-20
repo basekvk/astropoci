@@ -8,7 +8,7 @@ alt2:
 alt3:
 alt4:
 slug: getafe
-
+canonical: https://www.poceros-madrid.es/poceros/en/getafe
 bannerTitle: Poceros Getafe
 bannerRuta: Getafe
 

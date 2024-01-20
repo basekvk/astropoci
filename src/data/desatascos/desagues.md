@@ -10,7 +10,7 @@ bannerRuta: Desatascos Desagües
 slug: "desagues"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/desatascos/desagues
 titleSEO: "Desatascos Tuberías y Desagües en Madrid | Pociten 💪👷‍♂️🚰"
 descriptionMeta: "Pociten, tus expertos en desatascos de desagües y tuberías. Solucionamos problemas de forma rápida y eficiente. Llámanos al 647 37 67 82 📱."
 

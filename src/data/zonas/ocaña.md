@@ -6,7 +6,7 @@ alt1:
 alt3:
 alt4:
 slug: ocana
-
+canonical: https://www.poceros-madrid.es/poceros/en/ocana
 bannerTitle: Poceros Ocaña
 bannerRuta: Ocaña
 

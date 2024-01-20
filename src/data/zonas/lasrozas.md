@@ -8,7 +8,7 @@ alt2:
 alt3:
 alt4:
 slug: las-rozas
-
+canonical: https://www.poceros-madrid.es/poceros/en/las-rozas
 bannerTitle: Poceros Las Rozas
 bannerRuta: Las Rozas
 

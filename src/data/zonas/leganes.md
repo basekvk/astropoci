@@ -6,7 +6,7 @@ alt1: poceros leganes
 alt3:
 alt4:
 slug: leganes
-
+canonical: https://www.poceros-madrid.es/poceros/en/leganes
 bannerTitle: Poceros Leganés
 bannerRuta: Leganés
 

@@ -8,7 +8,7 @@ alt2:
 alt3:
 alt4:
 slug: illescas
-
+canonical: https://www.poceros-madrid.es/poceros/en/illescas
 bannerTitle: Poceros Illescas
 bannerRuta: Illescas
 

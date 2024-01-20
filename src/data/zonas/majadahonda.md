@@ -6,7 +6,7 @@ alt1: poceros majadahonda
 alt3:
 alt4:
 slug: majadahonda
-
+canonical: https://www.poceros-madrid.es/poceros/en/majadahonda
 bannerTitle: Poceros Majadahonda
 bannerRuta: Majadahonda
 

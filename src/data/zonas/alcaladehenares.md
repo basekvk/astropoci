@@ -11,6 +11,7 @@ slug: alcala-de-henares
 bannerTitle: Poceros en Alcalá de Henares
 bannerRuta: Alcalá de Henares
 title: "Poceros Alcalá de Henares: Soluciones de Pocería Rápidas y Eficaces con Pociten"
+canonical: https://www.poceros-madrid.es/poceros/en/alcala-de-henares
 
 
 titleSEO: 🛠️ Poceros Expertos en Alcalá de Henares - Pociten

@@ -8,7 +8,7 @@ alt2:
 alt3:
 alt4:
 slug: boadilla-del-monte
-
+canonical: https://www.poceros-madrid.es/poceros/en/boadilla-del-monte
 bannerTitle: Poceros Boadilla del Monte
 bannerRuta: Boadilla del Monte
 

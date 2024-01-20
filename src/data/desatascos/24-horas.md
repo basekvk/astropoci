@@ -10,7 +10,7 @@ bannerRuta: Desatascos 24 Horas
 slug: "24-horas"
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
-
+canonical: https://www.poceros-madrid.es/desatascos/24-horas
 titleSEO: "🌟 Desatascos 24 Horas - Pociten"
 descriptionMeta: "Pociten ofrece servicios de desatascos las 24 horas. Resolvemos problemas de forma rápida y eficiente. Llámanos al 647 37 67 82 📱."
 

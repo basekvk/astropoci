@@ -6,7 +6,7 @@ alt1:
 alt3:
 alt4:
 slug: parla
-
+canonical: https://www.poceros-madrid.es/poceros/en/parla
 bannerTitle: Poceros Parla
 bannerRuta: Parla
 
