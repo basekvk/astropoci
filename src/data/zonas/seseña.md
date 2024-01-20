@@ -11,7 +11,7 @@ bannerTitle: Desatascos Seseña
 bannerRuta: Seseña
 
 titleSEO: "⚡ Poceros Profesionales en Seseña - Pociten"
-descriptionMeta: Pociten: tus expertos en pocería en Seseña. Compromiso con la calidad y mejora de presupuestos. Llámanos al 647 37 67 82 📱."
+descriptionMeta: 'Pociten: tus expertos en pocería en Seseña. Compromiso con la calidad y mejora de presupuestos. Llámanos al 647 37 67 82 📱.'
 
 
 
