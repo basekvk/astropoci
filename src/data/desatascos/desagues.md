@@ -8,7 +8,7 @@ altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos Desagües
 bannerRuta: Desatascos Desagües
 slug: "desagues"
-icono: /assets/img/icon/PLUMBER.svg
+icono: /assets/img/icon/desagues.png
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/desagues
 titleSEO: "Desatascos Tuberías y Desagües en Madrid | Pociten 💪👷‍♂️🚰"

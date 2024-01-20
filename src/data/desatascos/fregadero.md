@@ -8,7 +8,7 @@ altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos de Fregadero
 bannerRuta: Desatascos de Fregadero
 slug: "fregadero"
-icono: /assets/img/icon/PLUMBER.svg
+icono: /assets/img/icon/fregadero.png
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/fregadero
 titleSEO: "🚰 Desatascos - Desatrancos de Fregadero - Pociten"

@@ -2,7 +2,7 @@
 
 
 // Carga los archivos Markdown desde el directorio 'data'
-const archivosServicios = await Astro.glob('../data/servicios/*.md');
+const archivosServicios = await Astro.glob('../data/desatascos/*.md');
 
 // Mapea los archivos a un array de objetos con la información necesaria
 const servicios = archivosServicios.map(file => ({
@@ -48,7 +48,7 @@ function calcularClaseAdicional(index, total) {
               <img src={servicio?.icono} alt={servicio?.nombre} />
             </div>
             <h4 style="color:#003a70;">{servicio?.nombre}</h4>
-            <a href={servicio?.url}
+            <a href={`desatascos/${servicio?.url}`}
               ><span>Saber Más</span><i class="fal fa-long-arrow-right"></i></a
             >
           </div>

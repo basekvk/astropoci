@@ -8,7 +8,7 @@ altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos Baratos
 bannerRuta: Desatascos Baratos
 slug: "baratos"
-icono: /assets/img/icon/PLUMBER.svg
+icono: /assets/img/icon/dinero.png
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/baratos
 titleSEO: "Desatascos Baratos en Madrid | Solución de Atascos Rápida y Profesional | Pociten 💪👷‍♂️🚰"

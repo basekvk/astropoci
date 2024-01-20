@@ -8,7 +8,7 @@ altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos de tuberias
 bannerRuta: Desatascos de tuberias
 slug: "tuberias"
-icono: /assets/img/icon/PLUMBER.svg
+icono: /assets/img/icon/tuberia.png
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/tuberias
 titleSEO: "Desatascos 🚰 Desatrancos de Tuberías en Madrid ⊛24 Horas⊛ | Desatascos 💪👷‍♂️"

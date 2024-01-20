@@ -8,7 +8,7 @@ altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos urgentes
 bannerRuta: Desatascos urgentes
 slug: "urgentes"
-icono: /assets/img/icon/PLUMBER.svg
+icono: /assets/img/icon/urgente.png
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/urgentes
 titleSEO: "🆘 Desatascos 🚰 Desatrancos Urgentes ⌛24 Horas - Pociten 💪👷‍♂️"

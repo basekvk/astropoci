@@ -8,7 +8,7 @@ altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos Sumideros
 bannerRuta: Desatascos Sumideros
 slug: "sumideros"
-icono: /assets/img/icon/PLUMBER.svg
+icono: /assets/img/icon/sumideros.png
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/sumideros
 titleSEO: "🌟 Desatascos Profesionales | 24 horas - Pociten"

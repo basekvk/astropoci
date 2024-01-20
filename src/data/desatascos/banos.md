@@ -8,7 +8,7 @@ altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos de Baños
 bannerRuta: Desatascos de Baños
 slug: banos
-icono: /assets/img/icon/PLUMBER.svg
+icono: /assets/img/icon/baños.png
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/banos
 titleSEO: "Desatascos en Baños - Aseos | 24 Horas| Pociten 💪👷‍♂️🚰"

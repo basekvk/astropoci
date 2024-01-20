@@ -8,7 +8,7 @@ altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos 24 Horas
 bannerRuta: Desatascos 24 Horas
 slug: "24-horas"
-icono: /assets/img/icon/PLUMBER.svg
+icono: "/assets/img/icon/s5.png "
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/24-horas
 titleSEO: "🌟 Desatascos 24 Horas - Pociten"

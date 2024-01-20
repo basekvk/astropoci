@@ -8,7 +8,7 @@ altFaq: "Preguntas Frecuentes"
 bannerTitle: Desatascos Alcantarillado
 bannerRuta: Desatascos Alcantarillado
 slug: "alcantarillado"
-icono: /assets/img/icon/PLUMBER.svg
+icono: /assets/img/icon/alcantarilla.png
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/alcantarillado
 titleSEO: "🏆 Desatascos de Alcantarillado - Pociten"
