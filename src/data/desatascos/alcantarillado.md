@@ -7,6 +7,7 @@ imageFaq: '/assets/img/question.jpg'
 altFaq: "Preguntas Frecuentes"
 bannerTitle: Desatascos Alcantarillado
 bannerRuta: Desatascos Alcantarillado
+name: "Alcantarillado"
 slug: "alcantarillado"
 icono: /assets/img/icon/alcantarilla.png
 imagen:  /assets/img/home1/eng.jpg

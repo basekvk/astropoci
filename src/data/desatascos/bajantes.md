@@ -8,6 +8,7 @@ altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos de bajantes
 bannerRuta: Desatascos de bajantes
 slug: bajantes
+name: Bajantes
 icono: /assets/img/icon/PLUMBER.svg
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/bajantes

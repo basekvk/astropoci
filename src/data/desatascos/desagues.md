@@ -8,6 +8,7 @@ altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos Desagües
 bannerRuta: Desatascos Desagües
 slug: "desagues"
+name: "Desagües"
 icono: /assets/img/icon/desagues.png
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/desagues

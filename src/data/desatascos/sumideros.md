@@ -9,6 +9,7 @@ bannerTitle: Desatascos Sumideros
 bannerRuta: Desatascos Sumideros
 slug: "sumideros"
 icono: /assets/img/icon/sumideros.png
+name: "Sumideros"
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/sumideros
 titleSEO: "🌟 Desatascos Profesionales | 24 horas - Pociten"

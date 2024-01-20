@@ -8,6 +8,7 @@ altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos Baratos
 bannerRuta: Desatascos Baratos
 slug: "baratos"
+name: "Desatascos Baratos"
 icono: /assets/img/icon/dinero.png
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/baratos

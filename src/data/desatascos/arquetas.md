@@ -8,6 +8,7 @@ altFaq: "Preguntas Frecuentes Desatascos Pociten"
 bannerTitle: Desatascos de Arquetas
 bannerRuta: Desatascos de Arquetas
 slug: "arquetas"
+name: "Arquetas"
 icono: /assets/img/icon/arquetas.png
 imagen:  /assets/img/home1/eng.jpg
 canonical: https://www.poceros-madrid.es/desatascos/arquetas

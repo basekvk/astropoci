@@ -5,6 +5,7 @@ image3: '/assets/img/servicios/desatascos/desatasco2.jpg'
 image4: '/assets/img/servicios/desatascos/desatasco3.jpg'
 imageFaq: '/assets/img/question.jpg'
 altFaq: "Preguntas Frecuentes Desatascos Pociten"
+name: "Desatascos 24 Horas"
 bannerTitle: Desatascos 24 Horas
 bannerRuta: Desatascos 24 Horas
 slug: "24-horas"

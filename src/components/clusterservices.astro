@@ -6,7 +6,7 @@ const archivosServicios = await Astro.glob('../data/desatascos/*.md');
 
 // Mapea los archivos a un array de objetos con la información necesaria
 const servicios = archivosServicios.map(file => ({
-  nombre: file.frontmatter.bannerRuta,
+  nombre: file.frontmatter.name,
   imagen: file.frontmatter.imagen,
   icono: file.frontmatter.icono,
   url: file.frontmatter.slug
