@@ -34,7 +34,7 @@ _contenido1: "
 
 _html: "
 
-h2><strong>Servicios de Pocería en Majadahonda</strong></h2>
+<h2><strong>Servicios de Pocería en Majadahonda</strong></h2>
 <p>En <strong>Pociten</strong>, brindamos una amplia gama de servicios de pocería en Majadahonda, disponibles incluso en días festivos:</p>
 <ul>
 <li>⇨ <strong>Mantenimiento y rehabilitación de sistemas de alcantarillado:</strong> Prevención de futuros colapsos. 🚧<br></li>
