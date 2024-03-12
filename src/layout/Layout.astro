@@ -1,13 +1,12 @@
 ---
-import Preloader from "../components/preloader.astro";
+import { ViewTransitions } from "astro:transitions";
 import Topbarheader from "../components/topheader.astro";
 import Header from "../components/header.astro";
 import Footer from "../components/footer.astro";
 import { SEO } from "astro-seo";
-import SpeedInsights from '@vercel/speed-insights/astro';
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 
-const { titleSEO, descriptionMeta, canonical} = Astro.props;
+const { titleSEO, descriptionMeta, canonical } = Astro.props;
 ---
 
 <!doctype html>
@@ -18,21 +17,19 @@ const { titleSEO, descriptionMeta, canonical} = Astro.props;
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Pocería Pociten" />
-    
 
     <link rel="shortcut icon" href="/favicon.ico" />
-
+    <ViewTransitions />
     <!-- Título de la página -->
     <SEO
       title={titleSEO}
       description={descriptionMeta}
-      canonical={canonical ? canonical: null}
+      canonical={canonical ? canonical : null}
       openGraph={{
         basic: {
           title: "Poceros en Madrid 24 horas",
           type: "Service",
-          image:
-            "https://poceros-madrid.es/assets/img/approch1.jpg",
+          image: "https://poceros-madrid.es/assets/img/approch1.jpg",
         },
       }}
       twitter={{
@@ -45,11 +42,14 @@ const { titleSEO, descriptionMeta, canonical} = Astro.props;
         meta: [
           {
             name: "twitter:image",
-            content:
-              "https://poceros-madrid.es/assets/img/approch1.jpg",
+            content: "https://poceros-madrid.es/assets/img/approch1.jpg",
           },
           { name: "twitter:title", content: "Pocería Pociten" },
-          { name: "twitter:description", content: "Empresa de pocería, desatascos de tuberías y alcantarillado en Madrid." },
+          {
+            name: "twitter:description",
+            content:
+              "Empresa de pocería, desatascos de tuberías y alcantarillado en Madrid.",
+          },
         ],
       }}
     />
@@ -67,40 +67,31 @@ const { titleSEO, descriptionMeta, canonical} = Astro.props;
     <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="/assets/css/metismenu.css" />
     <link rel="stylesheet" href="/assets/css/owl.theme.css" />
-    
   </head>
- 
+
   <body class="body-wrapper">
-    <Analytics  client:idle/>
-    <Preloader id="preloader" />
+    <Analytics client:idle />
     <Topbarheader />
     <Header />
     <slot />
-    <SpeedInsights />
     <Footer />
 
     <!-- Deferred JavaScript -->
-    <script src="/assets/js/jquery.min.js" defer></script>
-    <script src="/assets/js/modernizr.min.js" defer></script>
-    <script src="/assets/js/jquery.easing.js" defer></script>
-    <script src="/assets/js/popper.min.js" defer></script>
-    <script src="/assets/js/bootstrap.min.js" defer></script>
-    <script src="/assets/js/isotope.pkgd.min.js" defer></script>
-    <script src="/assets/js/imageload.min.js" defer></script>
-    <script src="/assets/js/scrollUp.min.js" defer></script>
-    <script src="/assets/js/owl.carousel.min.js" defer></script>
-    <script src="/assets/js/magnific-popup.min.js" defer></script>
-    <script src="/assets/js/counterup.min.js" defer></script>
-    <script src="/assets/js/wow.min.js" defer></script>
-    <script src="/assets/js/metismenu.js" defer></script>
-    <script src="/assets/js/timeline.min.js" defer></script>
-    <script src="/assets/js/ajax-mail.js" defer></script>
-    <script src="/assets/js/active.js" defer></script>
-
-    <script>
-      window.onload = function () {
-        document.getElementById("preloader").style.display = "none";
-      };
-    </script>
+    <script src="/assets/js/jquery.min.js" is:inline ></script>
+    <script src="/assets/js/modernizr.min.js" is:inline></script>
+    <script src="/assets/js/jquery.easing.js" is:inline></script>
+    <script src="/assets/js/popper.min.js" is:inline></script>
+    <script src="/assets/js/bootstrap.min.js" is:inline></script>
+    <script src="/assets/js/isotope.pkgd.min.js" is:inline></script>
+    <script src="/assets/js/imageload.min.js" is:inline></script>
+    <script src="/assets/js/scrollUp.min.js" is:inline></script>
+    <script src="/assets/js/owl.carousel.min.js" is:inline></script>
+    <script src="/assets/js/magnific-popup.min.js" is:inline></script>
+    <script src="/assets/js/counterup.min.js" is:inline></script>
+    <script src="/assets/js/wow.min.js" is:inline></script>
+    <script src="/assets/js/metismenu.js" is:inline></script>
+    <script src="/assets/js/timeline.min.js" is:inline></script>
+    <script src="/assets/js/ajax-mail.js" is:inline></script>
+    <script src="/assets/js/active.js" is:inline></script>
   </body>
 </html>
