@@ -1,4 +1,5 @@
 User-agent: *
-Disallow:
+Disallow: /assets/
+Disallow: /_astro/
 
 Sitemap: https://www.poceros-madrid.es/sitemap.xml
