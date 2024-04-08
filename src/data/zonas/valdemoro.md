@@ -11,7 +11,7 @@ canonical: https://www.poceros-madrid.es/poceros/en/valdemoro
 bannerTitle: Poceros Valdemoro
 bannerRuta: Valdemoro
 
-titleSEO: "⚡ Poceros Profesionales en Valdemoro - Pociten"
+titleSEO: "Poceros Profesionales en Valdemoro - Pociten"
 descriptionMeta: "Pociten: tus expertos en pocería en Valdemoro. Compromiso con la calidad y mejora de presupuestos. Llámanos al 647 37 67 82 📱."
 _contenido: "
 
